@@ -1,7 +1,7 @@
 
 [Source](http://docs.guzzlephp.org/en/stable/quickstart.html "Permalink to Quickstart — Guzzle Documentation")
 
-# Bắt đầu — Tài liệu Guzzle
+# Quickstart — Guzzle Docs
 
 Bài viết này sẽ giới thiệu nhanh về Guzzle và một số ví dụ mang tính giới thiệu. Nếu bạn chưa cài Guzzle, hãy tới trang [Cài đặt][1].
 

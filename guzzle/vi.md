@@ -1,7 +1,7 @@
 
 [Source](http://docs.guzzlephp.org/en/stable/quickstart.html "Permalink to Quickstart — Guzzle Documentation")
 
-# Quickstart — Guzzle Documentation
+# Quickstart — Guzzle Documentation 1
 
 This page provides a quick introduction to Guzzle and introductory examples. If you have not already installed, Guzzle, head over to the [Installation][1] page.
 

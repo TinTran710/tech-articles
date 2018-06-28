@@ -3,7 +3,7 @@
 
 # Quickstart — Guzzle Docs
 
-Bài viết này sẽ giới thiệu nhanh về Guzzle và một số ví dụ mang tính giới thiệu. Nếu bạn chưa cài Guzzle, hãy tới trang [Cài đặt][1].
+Bài viết này sẽ giới thiệu nhanh về Guzzle và cung cấp một số ví dụ mang tính giới thiệu. Nếu bạn chưa cài Guzzle, hãy tới trang [Cài đặt][1].
 
 ## Tạo Request
 

@@ -1,6 +1,6 @@
 ## Cách viết Meta description (mô tả meta) trong một thế giới liên tục thay đổi (AKA Google Giveth, Google Taketh Away)
 
-**Tóm tắt: **Tính tại thời điểm tháng 8 năm 2018, Google đã quay lại với việc hiển thị các đoạn trích ngắn. Dữ liệu của chúng tôi cho thấy những thay đổi này đang lan rộng và hầu hết các meta description đang bị cắt gọn thành khoảng 155-160 ký tự như thời điểm trước đây.
+**Tóm tắt: **Giữa tháng 5 năm 2018, Google đã quay lại với việc hiển thị các đoạn trích ngắn. Dữ liệu của chúng tôi cho thấy những thay đổi này đang phổ biến và hầu hết các meta description đang bị cắt gọn thành khoảng 155-160 ký tự như thời điểm trước đây.
 
 Quay lại vào tháng 12, Google đã thực hiện một thay đổi đáng kể trong cách họ hiển thị đoạn trích khi tìm kiếm, với nghiên cứu của chúng tôi, chúng tôi đã phát hiện rằng nhiều đoạn trích có chứa hơn 300 ký tự. Cuối tuần qua, họ dường như đã quay trở lại thay đổi đó (Danny Sullivan đã [xác nhận một phần điều này](https://twitter.com/dannysullivan/status/996065145443893249) trên Twitter vào ngày 14 tháng 8). Bên cạnh câu hỏi hiển nhiên mà ta sẽ đặt ra rằng - Giới hạn mới là gì? - nó có thể khiến bạn tự hỏi làm thế nào để đối phó khi các quy tắc tiếp tục thay đổi. Không ai trong chúng ta có một "quả cầu pha lê", nhưng tôi sẽ cố gắng trả lời cả hai câu hỏi dựa trên những gì chúng ta biết ngày nay.
 
@@ -73,11 +73,11 @@ Hãy nghĩ về nó giống như một quảng cáo, với hai dòng riêng bi�
 
 ### Dòng 1 (145 chars.)
 
-"In December, we reported that Google increased search snippets to over 300 characters. Unfortunately, it looks like the rules have changed again."
+Vào tháng 10, chúng ta đã báo cáo rằng Google tăng snippet tìm kiếm lên trên 300 ký tự. Thật không may, quy tắc giống như đã thay đổi một lần nữa.
 
 ### Line 2 (122 chars.)
 
-"According to our new research (May 2018), the limit is back to 155-160 characters. How should SEOs adapt to these changes?"
+Theo nghiên cứu mới của chúng tôi (5/2018), giới hạn quay trở lại 155-160 ký tự. SEO nên thích ứng với những sự thay đổi này thế nào ?
 
 Dòng 1 có phiên bản ngắn của câu chuyện và hy vọng người tìm kiếm biết họ đang đi đúng hướng. Dòng 2 đi sâu vào một vài chi tiết và cho ta biết chỉ vừa đủ dữ liệu (hy vọng) là hấp dẫn. Nếu Google sử dụng mô tả dài hơn, nó sẽ hoạt động tốt, nhưng nếu không, kết quả của chúng ta không nên tệ hơn trên.
 

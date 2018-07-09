@@ -1,11 +1,10 @@
 
 [Source](https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems "Permalink to Tutorial on Trie and example problems - Threads @ IIIT Hyderabad")
 
-# Hướng dẫn về Trie và ví dụ về các vấn đề liên quan
+# Hướng dẫn về Trie và ví dụ liên quan
 
-Trong bài viết lần này tôi sẽ nói về Tries và khái niệm được được sử trong các vấn đề có tính biến hóa, linh động. Chúng ta sẽ xem xét 2-3 vấn đề mà tại đó trie có ích.
+Trong bài viết lần này tôi sẽ nói về Tries và khái niệm được được sử trong các vấn đề có tính biến hóa, linh động. Chúng ta sẽ xem xét 2-3 vấn đề mà tại đó trie sẽ giúp ích.
 
-First we see what a trie is. Trie can store information about keys/numbers/strings compactly in a tree.
 Trước tiên chúng ta sẽ xem trie là gì. Trie có thể lưu trữ thông tin về các khóa/số/chuỗi một cách gọn nhẹ trong một cây. 
 Trie bao gồm các node, mỗi node lưu trữ một kí tự/bit. Chúng ta có thể thêm các chuỗi/số mới vào một cách phù hợp.
 
@@ -18,7 +17,8 @@ Nguồn: Wikipedia.
 
 Nhưng ở đây chúng ta sẽ làm việc với các con số, cụ thể là các bit nhị phân. Chúng ta sẽ rõ khi giải quyết các vấn đề này.
 
-**Vấn đề 1**: Cho một mảng các số nguyên, hãy tìm hai phần tử mà khi thực hiện phép XOR lên chúng cho ra giá trị lớn nhất. 
+**Vấn đề 1**: Cho một mảng các số nguyên, hãy tìm hai phần tử mà khi thực hiện phép XOR lên chúng cho ra giá trị lớn nhất.
+ 
 **Giải pháp:**  
 Giả sử chúng ta có cấu trúc dữ liệu thỏa mãn hai kiểu truy vấn sau:
 1\. Chèn thêm số X
@@ -86,9 +86,9 @@ Nếu q bằng 1, p bằng 0, ta sẽ thực hiện như sau:
 
 Tương tự ta có thể rất đơn giản giải 3 trường hợp khác. (q=1,p=1), (q=0,p=1) and (q=0,p=1).
 
-Do vậy, ta cần thay đổi cấu trúc hiện tại, ta cũng sẽ giữ số lượng các node lá mà có thể đi tới từ node hiện tại nếu ta đi từ phía bên trái và tương tự đối với phía bên phải. Bởi nếu không độ phức tạp sẽ tăng nếu ta lặp đi lặp lại việc duyệt cây. Ta có thể thực hiện điều này trong khi chèn các số vào cây một cách rất dễ dàng.
+Do vậy, ta cần thay đổi cấu trúc hiện tại, ta cũng sẽ giữ số lượng các node lá mà có thể đi tới từ node hiện tại nếu đi từ phía bên trái và tương tự đối với phía bên phải. Bởi nếu không độ phức tạp sẽ tăng nếu ta lặp đi lặp lại việc duyệt cây. Ta có thể thực hiện điều này trong khi chèn các số vào cây một cách rất dễ dàng.
 
-Vấn đề này được nêu ra tại CodeCraft'14. Bạn có thể thực hành tại: [SPOJ.com - Problem SUBXOR][6]
+Vấn đề này được nêu tại CodeCraft'14. Bạn có thể thực hành tại: [SPOJ.com - Problem SUBXOR][6]
 
 Giờ, hãy xem xét về cách triển khia code.
 Để triển khai code cho trie trong C/CPP ta có thể giữ các node và các con trỏ trái và phải. Ta có thể viết hàm đệ quy.   

@@ -1,49 +1,53 @@
 
 [Source](https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems "Permalink to Tutorial on Trie and example problems - Threads @ IIIT Hyderabad")
 
-# Tutorial on Trie and example problems - Threads @ IIIT Hyderabad
+# Hướng dẫn về Trie và ví dụ về các vấn đề liên quan
 
-I will be writing in this post about Tries and the concept widely used in bit manipulation kind of problems. We'll see 2-3 problems where trie is helpful.
+Trong bài viết lần này tôi sẽ nói về Tries và khái niệm được được sử trong các vấn đề có tính biến hóa, linh động. Chúng ta sẽ xem xét 2-3 vấn đề mà tại đó trie có ích.
 
-First we see what a trie is. Trie can store information about keys/numbers/strings compactly in a tree.  
-Tries consists of nodes, where each node stores a character/bit. We can insert new strings/numbers accordingly.  
-Here is an example trie of strings:
+First we see what a trie is. Trie can store information about keys/numbers/strings compactly in a tree.
+Trước tiên chúng ta sẽ xem trie là gì. Trie có thể lưu trữ thông tin về các khóa/số/chuỗi một cách gọn nhẹ trong một cây. 
+Trie bao gồm các node, mỗi node lưu trữ một kí tự/bit. Chúng ta có thể thêm các chuỗi/số mới vào một cách phù hợp.
+
+Dưới đây là một ví dụ về trie chứa các chuỗi:
 
 ![][1]
 
   
-Source: Wikipedia.
+Nguồn: Wikipedia.
 
-But we will be dealing with numbers here, and particularly in binary bits. We'll see as we solve problems.
+Nhưng ở đây chúng ta sẽ làm việc với các con số, cụ thể là các bit nhị phân. Chúng ta sẽ rõ khi giải quyết các vấn đề này.
 
-**Problem1**: Given an array of integers, we have to find two elements whose XOR is maximum.  
-**Solution:**  
-Suppose we have a data structure which can satisfy two types of queries:  
-1\. Insert a number X  
-2\. Given a Y, find maximum XOR of Y with all numbers that have been inserted till now.
+**Vấn đề 1**: Cho một mảng các số nguyên, hãy tìm hai phần tử mà khi thực hiện phép XOR lên chúng cho ra giá trị lớn nhất. 
+**Giải pháp:**  
+Giả sử chúng ta có cấu trúc dữ liệu thỏa mãn hai kiểu truy vấn sau:
+1\. Chèn thêm số X
+2\. Cho Y, tìm max của phép tính XOR của Y với tất cả các số mà đã được thêm tới giờ.
 
-If we have this data structure, we'll insert integers as we go, and with query of 2nd type we'll find the maximum XOR.  
-Trie is the data structure we'll use. First, let's see how we insert elements in the trie.
+Nếu chúng ta có cấu trúc dữ liệu kiểu như vậy, ta sẽ lần lượt chèn các số nguyên, và với truy vấn của kiểu thứ hai ta sẽ tìm được max của phép tính XOR.
+Trie là cấu trúc dữ liệu mà ta sẽ sử dụng. Trước tiên, hãy xem cách mà ta chèn các phần tử vào trie.
 
 ![][2]
 
-  
-So, we trace the path of the number we have to insert, we don't have to draw the existing path again.
 
-Insertion of an N length key takes O(N) which is log2(MAX) where MAX is the maximum number to be inserted in trie, because there are at maximum log2(MAX) binary bits in a number.  
-This way we store all the data about all the numbers inserted into trie till now.  
-Now, for query of type 2:  
-Let's say our number Y is b1,b2...bn, where b1,b2.. are binary bits. We start from b1. Now for the XOR to be maximum, we'll try to make most significant bit 1 after taking XOR. So, if b1 is 0, we'll need a 1 and vice versa. In the trie, we go to the required bit side. If favorable option is not there, we'll go other side. Doing this all over for i=1 to n, we'll get the maximum XOR possible.
+Như vậy, ta sẽ lần theo đường đi của các số mà ta cần chèn, chúng tôi sẽ không vẽ lại đường đi nữa. 
+
+Phép chèn khóa có độ dài N tốn O(N) tương đương log2(MAX), trong đó MAX là giá trị lớn nhất được chèn vào trie, bởi có nhiều nhất log2(MAX) bit nhị phân trong một số.
+Với cách này, chúng ta lưu trữ được tất cả dữ liệu về tất cả các số mà đã được chèn vào trong trie cho tới thời điểm hiện tại.
+Bây giờ, với truy vấn kiểu thứ hai:
+Giả sử số Y là b1, b2, ... bn, với b1, b2, ... là các bit nhị phân. Ta sẽ bắt đầu từ b1. Giờ để phép XOR có giá trị lớn nhất, ta sẽ cố gắng đạt được nhiều bit 1 nhất sau khi thực hiện phép XOR. Do vậy, nếu b1 bằng 0, ta sẽ cần một bit 1 và ngược lại. Trong trie, ta sẽ đi theo hướng của bit được yêu cầu tiếp theo. Thực hiện cách này với i từ 1 tới n, ta sẽ có giá trị lớn nhất của phép XOR.
+
 
 ![][3]
 
-Query too is log2(MAX).
+Truy vấn hai mất log2(MAX).
 
-**Problem2**: Given an array of integers, find the subarray with maximum XOR.  
-**Solution:**  
-Let's say F(L,R) is XOR of subarray from L to R.  
-Here we use the property that F(L,R)=F(1,R) XOR F(1,L-1). How?  
-Let's say our subarray with maximum XOR ended at position i. Now, we need to maximise F(L,i) ie. F(1,i) XOR F(1,L-1) where L<=i. Suppose, we inserted F(1,L-1) in our trie for all L<=i, then it's just problem1.
+**Vấn đề 2**: Cho một mảng các số nguyên, tìm mảng con có giá trị XOR lớn nhất. 
+**Giải pháp:**  
+Giả sử F(L,R) là XOR của mảng con từ L tới R.
+Ở đây ta sử dụng tính chất F(L,R) = F(1,R) XOR F(1,L-1). Tại sao lại như vậy?
+Giả sử mảng con với XOR lớn nhất kết thúc tại vị trí thứ i. Giờ ta cần tối đa giá trị F(L, i). F(L, i) XOR F(1,L-1) với L<=i. Giả sử ta đã chèn F(1,L-1) vào trie với mỗi L<=i, lúc đó bài toán sẽ quay về vấn đề 1.
+
     
     
     ans=0
@@ -56,13 +60,11 @@ Let's say our subarray with maximum XOR ended at position i. Now, we need to max
     print ans
     
 
-You can try this problem here: [ACM-ICPC Live Archive][4]
+Bạn có thử vấn đề này tại: [ACM-ICPC Live Archive][4]
 
-**Problem3**: Given an array of positive integers you have to print the number of subarrays whose XOR is less than K.
-
-**Solution:**  
-This again uses the concepts we have seen till now. We'll just go like previous question.  
-For each index i=1 to N, we can count how many subarrays ending at ith position satisfy the given condition.  
+**Vấn đề 3**: Cho một mảng các số nguyên dương, hãy in số lượng các mảng con mà XOR của chúng nhỏ hơn K.
+**Giải pháp:**  
+Giải pháp lần này một lần nữa sử dụng các khái niệm mà ta đã thấy cho tới giờ. Ta sẽ làm như câu hỏi trước. Với mỗi index i=1 tới N, ta có thể đếm số các mảng con kết thúc tại vị trí thứ i mà thỏa mã điều kiện.
 
     
     
@@ -75,22 +77,21 @@ For each index i=1 to N, we can count how many subarrays ending at ith position 
         p=q
     
 
-  
-query(q,k) returns how many integers already exist into structure which when taken xor with q return an integer less than k.  
-We compare the corresponding bits of q and k, beginning from most significant bits. Suppose p and q are the respective bits we are considering now.
+query(q,k) trả về số lượng các số nguyên đã tồn tại trong cấu trúc mà khi ta thực hiện phép XOR chúng với q sẽ trả về số nguyên nhỏ hơn k.
+Ta so sánh bit tương ứng của q và k, bắt đầu từ bit lớn nhất. Giả sử p và q là hai bit mà ta đang xem xét.
 
-If q is 1, and p is 0, then we do this:  
+Nếu q bằng 1, p bằng 0, ta sẽ thực hiện như sau:
 
 ![][5]
 
-Similarly we can very easily work out other 3 cases ie. (q=1,p=1), (q=0,p=1) and (q=0,p=1).
+Tương tự ta có thể rất đơn giản giải 3 trường hợp khác. (q=1,p=1), (q=0,p=1) and (q=0,p=1).
 
-So, we need to alter our structure here, we also keep the number of leaf nodes reachable from current node if I go to the left side and similarly for right side. Because, otherwise, the complexity will increase, if we traverse the whole tree again and again. We can do this while inserting numbers into the tree very easily.
+Do vậy, ta cần thay đổi cấu trúc hiện tại, ta cũng sẽ giữ số lượng các node lá mà có thể đi tới từ node hiện tại nếu ta đi từ phía bên trái và tương tự đối với phía bên phải. Bởi nếu không độ phức tạp sẽ tăng nếu ta lặp đi lặp lại việc duyệt cây. Ta có thể thực hiện điều này trong khi chèn các số vào cây một cách rất dễ dàng.
 
-This problem was set in CodeCraft'14. You can pratice here: [SPOJ.com - Problem SUBXOR][6]
+Vấn đề này được nêu ra tại CodeCraft'14. Bạn có thể thực hành tại: [SPOJ.com - Problem SUBXOR][6]
 
-Now, let's talk about implementations.  
-For implementation of a trie in C/CPP we can keep nodes and left and right pointers. We can write recursive functions.  
+Giờ, hãy xem xét về cách triển khia code.
+Để triển khai code cho trie trong C/CPP ta có thể giữ các node và các con trỏ trái và phải. Ta có thể viết hàm đệ quy.   
 
     
     
@@ -106,25 +107,25 @@ For implementation of a trie in C/CPP we can keep nodes and left and right point
     
 
   
-For queries also, we recursively traverse the tree.
+Đối với các truy vấn, ta duyệt một cách đệ quy trên cây.
 
-Update:  
-Another problem using Trie(yay! :P).  
+Cập nhật:
+Một vấn đề khác cũng sử dụng Trie(yay! :P).  
 [Problem - B - Codeforces][7]
 
-**Sub-Problem**: Given a group of _n_ non-empty strings. During the game two players build the word together, initially the word is empty. The players move in turns. On his step player must add a single letter in the end of the word, the resulting word must be prefix of at least one string from the group. A player loses if he cannot move.
+**Vấn đề con**: Cho một nhóm gồm _n_ chuỗi không rỗng. Trong trò chơi ta đang xét, hai người chơi cùng xây dựng từ cùng nhau, khởi đầu thì từ rỗng. Người chơi lần lượt thay nhau chơi. Với mỗi lượt, người chơi phải thêm một chữ cái vào cuối của từ, kết quả của từ phải là tiền tố của ít nhất một chuỗi từ nhóm. Một người chơi sẽ thua nếu anh ta không thể thực hiện bước đi tiếp theo của mình.
 
-We need to find which player(first or second) has the winning strategy.
+Ta cần tìm người chơi nào (1 hoặc 2) mà có khả năng chiến thắng.
 
-So, the idea here is again to build a trie of all strings. Why? Because a trie stores information about all prefixes.  
-Now, we will try to evaluate for each node if first player has a winning strategy or not.  We can do this recursively. For a node v, for each node u such that u is a immediate child of v, if first player has a losing strategy for u, then for node v first player has a winning strategy.  
-For example, say we have "abc", "abd", "acd".  
-Our trie would look like:  
+Vậy, ý tưởng ở đây lần nữa là xây dựng một trie chứa các chuỗi. Tại sao? Bởi một trie luôn lưu trữ thông tin về tất cả các tiền tố.
+Bây giờ, ta sẽ thử đánh giá xem với mỗi node liệu người chơi đầu tiên có khả năng giành thắng lợi hay không. Ta có thể thực hiện điều này một cách đệ quy. Với node v, mỗi node u mà u là con trực tiếp của v, nếu người chơi đầu tiên có khả năng thua vì u, thì với node v người chơi đầu sẽ có khả năng giành chiến thắng.
+Ví dụ, giả sử ta có "abc", "abd", "acd".
+Trie của chúng ta sẽ nhìn như sau:
 
 ![][8]
 
   
-All leaf nodes have winning strategy.
+Tất cả các node lá đều có khả năng chiến thắng.
 
 [1]: https://qph.fs.quoracdn.net/main-qimg-aea28d9cd34aaf2d5783f4cd04e5abbd
 [2]: https://qph.fs.quoracdn.net/main-qimg-388217a1992f1b2aac51e9917aa76d9c

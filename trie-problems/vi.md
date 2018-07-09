@@ -1,7 +1,7 @@
 
 [Source](https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems "Permalink to Tutorial on Trie and example problems - Threads @ IIIT Hyderabad")
 
-# Hướng dẫn về Trie và ví dụ liên quan
+# Hướng dẫn về Trie và các ví dụ liên quan
 
 Trong bài viết lần này tôi sẽ nói về Tries và khái niệm được được sử trong các vấn đề có tính biến hóa, linh động. Chúng ta sẽ xem xét 2-3 vấn đề mà tại đó trie sẽ giúp ích.
 

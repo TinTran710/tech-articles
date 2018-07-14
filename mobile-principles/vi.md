@@ -3,8 +3,6 @@
 
 # What Makes a Good Mobile Site?  |  Web Fundamentals  |  Google Developers
 
-![Jenny Gove][1]
-
 Jenny Gove is a UX Research Lead at Google, where she conducts research on smartphone experiences. She obtained her PhD from the University of Southampton, UK. 
 
 Google and AnswerLab conducted a [research study][2] to answer this question.

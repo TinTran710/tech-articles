@@ -1,185 +1,184 @@
 
 [Source](https://developers.google.com/web/fundamentals/design-and-ux/principles/ "Permalink to What Makes a Good Mobile Site?  |  Web Fundamentals  |  Google Developers")
 
-# What Makes a Good Mobile Site?  |  Web Fundamentals  |  Google Developers
+# Điều gì làm nên một trang Mobile tốt?  |  Cơ bản về Web  |  Google Developers
 
-Jenny Gove is a UX Research Lead at Google, where she conducts research on smartphone experiences. She obtained her PhD from the University of Southampton, UK. 
+Jenny Gove là một UX Research Lead tại Google, tại đó cô đã thực hiện các nghiên cứu về trải nghiệm trên smartphone. Cô có bằng  Tiến sĩ tại đại học Southampton, Anh.
 
-Google and AnswerLab conducted a [research study][2] to answer this question.
+Google và AnswerLab đã thực hiện một [nghiên cứu][2] để trả lời cho câu hỏi này.
 
-> Mobile users are very goal-oriented. They expect to be able to get what they need, immediately, and on their own terms.
+> Người dùng mobile sử dụng khi sử dụng rất có khuynh hướng hướng   mục tiêu. Họ  mong chờ sẽ có được những thứ họ  cần ngay lập tức và theo cách của riêng họ.
 
-The study was held through 119 hour-long, in-person usability sessions with participants in the US. Participants were asked to perform key tasks across a diverse set of mobile sites. iOS and Android users were included, and users tested the sites on their own phones. For each site, participants were asked to voice their thoughts aloud as they completed conversion-focused tasks like making a purchase or booking a reservation.
+Nghiên cứu được thực hiện trong 119 giờ đồng hồ, bao gồm  các phiên  trải nghiệm sử dụng trực tiếp của  những người đến từ Mỹ. Những người tham gia trải nghiệm được yêu cầu thực hiện các tác vụ trên nhiều trang mobile khác nhau.   Người dùng iOS và Android cũng tham gia thử nghiệm, và họ thực hiện các thử nghiệm trên chính điện thoại của họ. Với mỗi trang, người tham gia sẽ bày tỏ cảm nhận, suy nghĩ của bản thân khi họ hoàn thành các tác vụ  khác nhau như mua bán hay đặt chỗ
 
-The study uncovered 25 mobile site design principles, grouped into five categories.
+Nghiên cứu đã tìm ra 25 quy tắc thiết kế  cho  cáctrang mobile, và được phân thành 5 thể loại.
 
-## Home page and site navigation
+## Home page và site navigation
 
-**Success:** Focus your mobile homepage on connecting users to the content they're looking for.
+**Mục tiêu:** Làm trang homepage của mobile có thể kết nối users với nội dung mà họ đang tìm kiếm.
 
-### Keep calls to action front and center
+### Giữ các call to action (lời kêu gọi hành động) ở đằng trước và chính giữa
 
-Make secondary tasks available through [menus][3] or "below the fold" (the part of the webpage that can't be seen without scrolling down).
+Hãy làm sao để các tác vụ thứ hai có thể thực hiện thông qua [menus][3] hoặc tại "phía dưới màn hình" (phần của webpage mà ta không thể thấy  nếu không vuốt xuống).
 
-![][4]**DO**: Make all of your users' most common tasks easily available. 
+![][4]**Nên**: Làm sao để tất cả các tác vụ cơ bản của người dùng  trở nên  đơn giản và khả dụng nhất.
 
-![][5]**DON'T**: Waste precious above-the-fold space with vague calls-to-action like "learn more". 
+![][5]**Không nên**: Lãng phí không gian ở phần nổi của màn hình vào những calls-to-action (lời kêu gọi hành động) mơ hồ như "Tìm hiểu thêm".
 
-### Keep menus short and sweet
+### Giữ các menu ngắn và đẹp
 
-![][6]**DO**: Keep menus short and sweet. 
+![][6]**Nên**: Giữ các menu ngắn và đẹp. 
 
-Mobile users don't have the patience to scroll through a long list of options to find what they want. Reorganize your menu to use as few items as possible, without sacrificing usability.
+Mobile users không có đủ kiên nhẫn để scroll qua một danh sách dài các lựa chọn để tìm thứ mà họ muốn. Sắp xếp lại menu của bạn   sử dụng càng ít các thành phần càng tốt mà không làm mất đi khả năng sử dụng.
 
-### Make it easy to get back to the home page
+### Đơn giản hóa việc quay lại home page
 
-![][7]**DO**: Make it easy to get back to the home page. 
+![][7]**Nên**: Đơn giản hóa việc quay lại home page. 
 
-Users expect to go back to the homepage when they tap the logo in the top-left of a mobile page, and they become frustrated when it isn't available or doesn't work.
+Users sẽ mong muốn có thể  quay lại homepage khi họ chạm vào logo tại phía trên bên trái của một trang mobile, và họ sẽ bực bội nếu điều này không khả dụng .
 
-### Don't let promotions steal the show
+### Đừng để các khuyến mãi chiếm  hết  show diễn
 
-Large app install interstitials (e.g., full-page promotions that hide content and prompt users to install an app) annoy users and make it difficult to perform tasks. In addition to annoying users, [sites that use interstitials may see a negative impact to their search rankings][8].
+Các quảng cáo xen kẽ lớn mà yêu cầu cài đặt app (ví dụ: các khuyến mãi chiếm cả màn hình sẽ ẩn các nội dung và yêu cầu users cài đặt app) sẽ làm phiền users và gây cản trở trong việc thực hiện các tác vụ. Ngoài việc làm phiền users,  [các trang sử dụng quảng cáo xen kẽ có thể  bị tác động tiêu cực đến thính thứ hạng tìm kiếm của họ][8]
 
-![][9]**DO**: Promotions should be easily dismissable and not distract from the experience. 
+![][9]**Nên**: Các khuyến mãi nên được bỏ qua một cách dễ dàng và không được ảnh hưởng đến trải nghiệm sử dụng.
 
-![][10]**DON'T**: Interstitials (sometimes called door slams) often annoy users and make using the site a pain. 
+![][10]**Không nên**: Các quảng cáo xen kẽ (đôi khi được gọi là những cái đóng sập cửa) thường làm phiền users và làm việc trải nghiệm trang  trở nên rất khổ sở.
 
-## Site search
+## Trang tìm kiếm
 
-**Success:** Help mobile users find what they're looking for in a hurry.
+**Mục tiêu:** Giúp mobile users tìm thấy những gì họ muốn nhanh chóng.
 
-### Make site search visible
+### Hiển thị trang tìm kiếm 
 
-Users looking for information usually turn to search, so the search field should be one of the first things they see on your pages. Don't hide the search box in a menu.
+Users tìm kiếm thông tin thường chuyển sang việc sử dụng  công cụ tìm kiếm, do vậy phần tìm kiếm nên là một trong những thứ đầu tiên được  nhìn thấy trên trang của bạn. Đừng ẩn thanh tìm  kiếm  vào trong menu.
 
-![][11]**DO**: Make search visible 
+![][11]**Nên**: Hiện thị tìm kiếm 
 
-![][12]**DON'T**: Hide search in overflow menus 
+![][12]**Không nên**: Ẩn tìm kiếm vào trong các overflow menus.
 
-### Ensure site search results are relevant
+### Đảm bảo rằng kết quả của  trang tìm kiếm  cho ra  các  thông tin liên quan
 
-Users don't scan through multiple pages of results to find what they're looking for. Make life easier on users by auto-completing queries, correcting misspellings, and suggesting related queries. Rather than reinventing the wheel, consider robust products like [Google Custom Search][13].
+Users sẽ không lướt qua nhiều trang kết quả để  thứ mà họ đang cần. Hãy làm mọi thứ cho users trở nên dễ dàng hơn bằng  việc  áp dụng  tính năng  tự động gợi ý  , hoàn thiện và sửa lỗi chính tả khi tìm kiếm . Thay vì tự mình làm ,hãy cân nhắc việc sử dụng sản phẩm  chất lượng như [Google Custom Search][13].
 
-![][14]**DO**: Macy's only returns kids items. 
+![][14]**Nên**: Trang của Macy chỉ nên trả về các kết quả liên đến các vật phẩm về trẻ em.
 
-![][15]**DON'T**: Return results for anything with the word kid in it. 
+![][15]**Không nên**: Không nên trả về các kết quả mà có chứa từ kid trong đó.
 
-### Implement filters to narrow results
+### Áp dụng filters để giới hạn kết quả
 
-Study participants rely on [filters][16] to find what they're looking for, and abandon sites that do not have effective filters. Place filters above search results, and help users by displaying how many results will be returned when a specific filter is applied.
+Những người tham gia cuộc thử nghiệm  sử dụng và phụ thuộc  vào  [filters][16] để tìm kiếm những gì họ cần, và bỏ qua  các trang mà không có filter hiệu quả. Hãy đặt filter phía trên kết quả tìm kiếm, và giúp users  bằng cách hiển thị  số lượng kết quả trả về nếu một filter được áp dụng.
 
-![][17]**DO**: Make it easy to filter. 
+![][17]**Nên**: Làm việc filter trở nên dễ dàng. 
 
-![][18]**DON'T**: Hide filter functionality. 
+![][18]**Không nên**: Ẩn chức năng của filter.
 
-### Guide users to better site search results
+### Điều hướng, chỉ dẫn users tới các trang tìm kiếm có kết quả tốt hơn
 
-![Zappos guides users by asking them what they're looking for.][19]**DO**: Help users to find what they're looking for by guiding them in the right direction. 
+![Zappos guides users by asking them what they're looking for.][19]**Nên**: Giúp users tìm thấy những gì họ tìm kiếm bằng  cách chỉ dẫn họ.
+Đối với những trang có nhiều phần về khách hàng, hãy hỏi một vài câu hỏi trước khi hiển thị thanh tìm kiếm, và sử dụng phản hồi của khách hàng làm filter cho câu truy vấn tìm kiếm để đảm bảo rằng users có được kết quả từ phần liên quan nhất.
 
-For sites with diverse customer segments, ask a few questions before presenting the search box, and use the customer's responses as search query filters to ensure that users get results from the most relevant segment.
+## Thương mại và chuyển đổi
+Mục tiêu: Thấu hiểu trải nghiệm, hành trình  của khách hàng và cho phép users chuyển đổi theo các điều khoản của riêng họ.
 
-## Commerce and conversion
+### Để users trải nghiệm trước khi  yêu cầu họ  cam kết
 
-**Success:** Understand your customer journeys and let users convert on their own terms.
+Những người tham gia thử nghiệm  nói rằng họ  bực bội  bởi những trang mà yêu cầu phải đăng ký ngay trên màn hình để xem trang, đặc biệt đối  với những trang không nổi tiếng. Mặc dù thông tin khách hàng rất quan trọng  đối với mô hình kinh  doanh của bạn, yêu cầu điều này quá sớm có thể dẫn đến  việc  có ít người đăng ký hơn.
 
-### Let users explore before they commit
+![][20]**Nên**: Cho phép users xem trang mà không yêu cầu đăng nhập. 
 
-Study participants were frustrated by sites that require upfront registrations to view the site, especially when the brand was unfamiliar. Although customer information may be integral to your business, asking for it too early may result in fewer registrations.
+![][21]**Không nên**: Hiển thị các phần đăng nhập hoặc đăng ký quá sớm trong một trang. 
 
-![][20]**DO**: Allow users to browse the site without requiring sign in. 
+### Hãy cho phép users mua hàng dưới dạng guests (khách)
 
-![][21]**DON'T**: Place login or registration too early in a site. 
+![][22]**Nên**: Cho phép users mua hàng tài khoản khách.
 
-### Let users purchase as guests
+Những người tham gia thử nghiệm  nhìn nhận  việc  thanh toán bằng tài khoản khách là rất tiện lợi, đơn giản và nhanh chóng. Users  sẽ bị phiền bởi những trang mà ép họ phải đăng ký tài khoản khi mua hàng, đặc biệt khi lợi ích của việc  sở hữu tài khoản là không rõ ràng.
 
-![][22]**DO**: Allow users to purchase with a guest account. 
+### Sử dụng thông tin có sẵn để tối đa hóa sự  tiện lợi
 
-Study participants viewed guest checkouts as "convenient", "simple", "easy", and "quick". Users are annoyed by sites that force them to register for an account when making a purchase, especially when the benefit of an account is unclear.
+Hãy lưu lại và tự động điền sẵn thông tin  đối với  những users đã đăng ký.  Cung cấp các dịch vụ tương tự thanh toán cho bên thứ 3 đối với khách hàng mới.
 
-### Use existing information to maximize convenience
+### Sử dụng click-to-call (click-để-gọi) đối với những tác vụ phức tạp 
 
-Remember and [pre-fill preferences][23] for registered users. Offer familiar, third-party checkout services for new users.
+Trên những thiết bị có chức năng gọi điện, [các đường dẫn  click-để-gọi][24] cho phép users gọi điện chỉ đơn giản bằng cách chạm vào đường dẫn. Trên hầu hết các thiết bị mobile, users nhận được yêu cầu xác nhận gọi trước khi số  máy được quay, hoặc một menu được hiển thị để hỏi người dùng cách xử lý số máy .
 
-### Use click-to-call buttons for complex tasks
+### Đơn giản hóa việc kết thúc trên thiết bị khác
 
-On devices with calling capabilities, [click-to-call links][24] enable users to make a phone call by simply tapping a link. On most mobile devices the user receives a confirmation before the number is dialed, or a menu is presented asking the user how the number should be handled.
+![][25]**Nên**: Cung cấp cách đơn giản để users tiếp tục  xem hoặc mua bán trên thiết bị khác. 
 
-### Make it easy to finish on another device
+Users thường muốn kết thúc tác vụ trên thiết bị khác. Ví dụ, họ có thể muốn xem một vật phẩm trên màn hình lớn hơn. Hoặc họ có thể  đang bận và muốn hoàn thành nó sau. Hãy hỗ trợ trải nghiệm này của khách hàng bằng cách  cho phép users [chia sẻ vật phẩm trên mạng xã hội][26], hoặc cho phép users tự email chính bản thân các link trực tiếp từ trong site.
 
-![][25]**DO**: Provide easy ways for users to continue browsing or shopping on another device. 
+## Từ ban đầu
 
-Users frequently want to finish tasks on other devices. For instance, they might wish to view an item on a larger screen. Or they might get busy and need to finish later. Support these customer journeys by enabling users to [share items on social networks][26], or by letting users email themselves links from directly within the site.
+**Mục tiêu:** Cung cấp một trải nghiệm chuyển đổi  liền mạch với  các form có thể sử dụng được.
 
-## Form entry
+### Điều hướng tại mục thông tin nhập vào
 
-**Success:** Provide a seamless, frictionless conversion experience with usable forms.
+Tự động chuyển sang mục tiếp theo khi user ấn Return. Thông thường,  users  phải ấn càng ít thì sẽ càng tốt.
 
-### Streamline information entry
+### Lựa chọn input đơn giản nhất
 
-Automatically advance to the next field when a user presses Return. In general, the less taps the user must perform, the better.
+Sử dụng [kiểu input phù hợp][27] nhất đối với mỗi trường hợp. Sử dụng các thành phần như [`datalist`][28] để có các giá trị gợi ý cho một trường.
 
-### Choose the simplest input
+### Cung cấp một lịch trực quan cho việc lựa chọn ngày
 
-Use the most [appropriate input type][27] for each scenario. Use elements like [`datalist`][28] to provide suggested values for a field.
+![][29]**Nên**: sử dụng calendar widgets khi có thể. 
 
-### Provide visual calendar for date selection
+Làm nổi rõ ngày bắt đầu và ngày kết thúc. Không nên để users phải thoát trang và mở ứng dụng lịch để lên lịch ngày.
 
-![][29]**DO**: use calendar widgets when possible. 
+### Giảm thiểu tối đa lỗi form bằng việc  hiển thị nhãn và validate  một  cách real-time
 
-Clearly label start and end dates. Users should not need to leave a site and check a calendar app just to schedule a date.
+![][30]**Nên**: Hiển thị trước nội dung tại bất cứ đâu có thể.
 
-### Minimize form errors with labeling and real-time validation
+Gán nhãn input một cách chính xác và validate input trong real-time.
 
-![][30]**DO**: Prepopulate content where possible. 
+### Thiết kế các form hiệu quả
 
-Label inputs properly and validate input in real-time.
+Tận dụng lợi ích của [autofill][31] để  users có thể  điền form một cách dễ dàng với dữ diệu được hiển thị từ trước. Các trường được điền từ trước  với những thông tin mà bạn đã biết. Ví dụ, khi nhận thông tin về  địa chỉ giao hàng và thanh toán, hãy cố gắng sử  dụng [`requestAutocomplete`][32] hoặc cho phép users  sao chép địa chỉ giao hàng của họ tới địa chỉ thanh toán (hoặc ngược lại).
 
-### Design efficient forms
+## Tính sử dụng và yếu tố hình thức
 
-Take advantage of [autofill][31] so that users can easily complete forms with pre-populated data. Pre-fill fields with information you already know. For example, when retrieving shipping and billing addresses, try to use [`requestAutocomplete`][32] or enable users to copy their shipping address to their billing address (or vice versa).
+**Mục tiêu:** Làm vui mobile users với những điều nhỏ  mà làm tăng trải nghiệm của họ.
 
-## Usability and form factor
+### Tối ưu hóa toàn bộ site của bạn cho mobile
 
-**Success:** Delight your mobile users with small things that enhance their experiences.
+Sử dụng một [responsive layout][3]  mà thay đổi dựa trên kích cỡ  và  khả năng  hiển thị của thiết bị. Những người tham gia trải nghiệm  thấy rằng  những trang  tối ưu cho cả desktop và mobile còn khó sử dụng hơn  cả trang chỉ dành cho desktop.
 
-### Optimize your entire site for mobile
+### Đừng để users phải nhấn vào để phóng to
 
-Use a [responsive layout][3] that changes based on the size and capabilities of the user's device. Study participants found sites with a mix of desktop and mobile-optimized pages even harder to use than desktop-only sites.
+Users thường thoải mái với việc scroll trang theo chiều dọc hơn là  theo chiều ngang. Hãy tránh các thành phần lớn và có độ rộng cố định. Đừng tạo  ra nội dung  mà chỉ hiển thị tốt tại một [khung hình có độ rộng nhất định][34]. Các trang ép users phải scroll theo chiều ngang sẽ  không vượt qua [Google Mobile-Friendly Test][35], điều này sẽ ảnh hưởng tiêu cực đến thứ hạng tìm kiếm của họ. 
 
-### Don't make users pinch-to-zoom
+### Hãy làm các ảnh sản phẩm có thể  mở rộng 
 
-Users are comfortable with scrolling sites vertically, but not horizontally. Avoid large, fixed-width elements. Use [CSS media queries][33] to apply different stylings for different screens. Don't create content that only displays well at a particular [viewport width][34]. Sites that force users to horizontally scroll fail the [Google Mobile-Friendly Test][35], which may negatively impact their search rankings.
+![][36]**Nên**: Làm các ảnh sản phẩm có thể  mở rộng  dễ dàng xem chi tiết  ảnh.
 
-### Make product images expandable
+Các khách hàng bán lẻ mong muốn các trang cho phép họ xem các sản phẩm [cận cảnh ở độ phân giải cao][37]. Những người tham  gia trải nghiệm  cho biết họ rất bực bội khi không xem những thứ họ đang mua.
 
-![][36]**DO**: Make product images expandable and easy to see detail. 
+### Cho users biết hướng xoay nào là tốt nhất
 
-Retail customers expect sites to let them [view high resolution closeups][37] of products. Study participants got frustrated when they weren't able to see what they were buying.
+![][38]**Nên**: Cho users biết hướng xoay nào là tốt nhất.
 
-### Tell users which orientation works best
+Những người tham gia trải nghiệm có khuynh hướng  sử dụng cùng một hướng xoay màn hình cho tới khi có một thông báo bảo họ  nên chuyển .  Hãy thiết kế cho cả chiều ngang và chiều dọc  hoặc khuyến khích users  thay đổi hướng xoay .
+ Hãy đảm bảo rằng các calls-to-action quan trọng của bạn có thể được thực hiện cho dù users bỏ qua việc xoay màn hình như được đề xuất.
 
-![][38]**DO**: Tell the user which orientation works best. 
+### Giữ users của bạn chỉ trong một cửa sổ trình duyệt
 
-Study participants tended to stay in the same screen orientation until something prompted them to switch. Design for both landscape and portrait, or encourage users to switch to the optimal orientation. Make sure that your important calls-to-action can be completed even if the users ignore the suggestion to switch orientations.
+![][39]**Nên**: Trang Macy giữ users của họ trên trang bằng cách cung cấp  phiếu giảm  giá trên trang.
 
-### Keep your user in a single browser window
+Users có thể gặp vấn đề trong việc chuyển qua lại giữa các  cửa sổ và có thể không tìm thấy lối về trang. Hãy tránh việc  làm  ra các calls-to-action  mà tạo ra cửa sổ mới. Hãy tìm ra bất kỳ luồng nào mà có thể gây ra việc điều hướng users tìm kiếm bên ngoài trang và hãy cung cấp các tính năng để giữ họ tại trang của bạn. Ví dụ, nếu bạn chấp nhận phiế u giảm giá, hãy hiện thực hóa điều này trực tiếp trên trang của bạn, hơn là việc yêu cầu users phải tìm kiếm  các deal tại các trang khác.
 
-![][39]**DO**: Macy's keeps their users on their site by providing coupons on site. 
+### Tránh việc hiển thị nhãn cả trang
 
-Users may have trouble switching between windows and might not be able to find their way back to the site. Avoid calls-to-action that launch new windows. Identify any journeys that might cause a user to look outside your site and provide features to keep them on your site. For example, if you accept coupons, offer them directly on the site, rather than forcing users to search other sites for deals.
+Khi những ngươì tham gia trải nghiệm thấy một  tùy chọn  cỡ toàn màn hình (ví dụ cỡ desktop) so với tùy chọn "cỡ mobile",  họ sẽ nghĩ tùy chọn cỡ mobile bị thiếu  nội dung và lựa chọn cái cỡ "toàn  màn hình" , điều này sẽ dẫn họ tới trang desktop.
 
-### Avoid "full site" labeling
+### Hãy nói rõ tại sao bạn cần vị trí của user
 
-When study participants saw an option for a "full site" (i.e., desktop site) versus a "mobile site", they thought the mobile site lacked content and chose the "full" one instead, directing them to the desktop site.
+Users luôn cần hiểu tại sao bạn yêu cầu thông tin về [vị trí][40] của họ. Những người tham gia trải nghiệm mà thử đặt phòng khách sạn tại thành phố khác đã bị bối rối khi trang du lịch phát hiện vị trí của họ và đề xuất khách sạn tại  chính thành phố của họ đang ở. Hãy để trường vị trí rỗng theo mặc định, và  để users lựa chọn hiển thị chúng thông qua một call-to-action rõ ràng như "Find Near Me".
 
-### Be clear why you need a user's location
+![][41]**Nên**: Luôn yêu cầu quyền truy cập tới vị trí dựa trên hành vi của người dùng.
 
-Users should always understand why you're asking for their [location][40]. Study participants trying to book a hotel in another city became confused when a travel site detected their location and offered hotels in their current city instead. Leave location fields blank by default, and let users choose to populate them through a clear call-to-action like "Find Near Me".
-
-![][41]**DO**: Always request access to location on a user gesture. 
-
-![][42]**DON'T**: Asking for it immediately on the homepage as the site loads results in a poor user experience. 
+![][42]**Không nên**: Yêu cầu nó ngay lập tức trên homepage trong khi trang đang load sẽ dẫn đến trải nghiệm người dùng rất  kém. 
 
 [1]: https://developers.google.com/web/images/contributors/jennygove.jpg
 [2]: https://www.google.com/think/multiscreen/whitepaper-sitedesign.html?utm_source=web-fundamentals&utm_term=chrome&utm_content=ux-landing&utm_campaign=web-fundamentals

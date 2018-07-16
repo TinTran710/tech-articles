@@ -1,9 +1,9 @@
 
 [Source](http://docs.guzzlephp.org/en/stable/quickstart.html "Permalink to Quickstart — Guzzle Documentation")
 
-# Quickstart — Guzzle Docs
+# Bắt đầu nhanh — Tài liệu về Guzzle
 
-Bài viết này sẽ giới thiệu nhanh về Guzzle và cung cấp một số ví dụ mang tính giới thiệu. Nếu bạn chưa cài Guzzle, hãy tới trang [Cài đặt][1].
+Bài viết này giới thiệu nhanh về Guzzle và cung cấp một số ví dụ mang tính giới thiệu. Nếu bạn chưa cài Guzzle, xem qua trang [Cài đặt][1].
 
 ## Tạo Request
 
@@ -22,12 +22,11 @@ Bạn có thể gửi các request với Guzzle bằng cách sử dụng đối 
     ]);
     
 
-Các client là không đổi trong Guzzle 6, điều đó có nghĩa rằng bạn không thể thay đổi các tùy chọn mặc định được sử dụng bởi client sau khi nó được khởi tạo.
+Các client không thay đổi trong Guzzle 6, điều đó có nghĩa rằng bạn không thể thay đổi các tùy chọn mặc định được sử dụng bởi client sau khi nó được khởi tạo.
 
 Constructor của client có thể nhận các tùy chọn dưới dạng một mảng: 
 
-`base_uri`
-: 
+### `base_uri`: 
 
 (string|UriInterface) URI gốc của client được nối với các URI tương đối. Đó có thể là một string hoặc là một thực thể UriInterface. Khi client có một URI tương đối, client sẽ kết hợp URI gốc với URI tương đối dựa theo luật được mô tả trong [RFC 3986, section 2][2].
     
@@ -61,7 +60,7 @@ Cảm thấy không muốn đọc RFC 3986? Vậy thì đây là một vài ví 
 
 ### Gửi Requests
 
-Các Magic method trên client khiến việc gửi các request đồng bộ trở nên dễ dàng:
+Các Magic method trên client giúp cho việc gửi các request đồng bộ trở nên dễ dàng:
     
     
     $response = $client->get('http://httpbin.org/get');
@@ -85,7 +84,7 @@ Bạn có thể tạo một request và sau đó dùng client để gửi reques
 Các đối tượng client mang lại một giải pháp linh động trong cách vận chuyển các request bao gồm các tùy chọn request mặc định, các stack middleware handler mặc định được sử dụng bởi mỗi request, và một URI gốc cho phép bạn gửi các request với các URI tương đối.
 
 
-Bạn có thể tìm hiểu thêm về client middleware tại [_Handlers and Middleware_][3] trong tài liệu.
+Bạn có thể tìm hiểu thêm về client middleware tại [_Handlers và Middleware_][3] trong tài liệu.
 
 ### Async Requests (Request bất đồng bộ)
 
@@ -115,7 +114,7 @@ Bạn cũng có thể sử dụng các hàm sendAsync() và requestAsync() của
     $promise = $client->requestAsync('GET', 'http://httpbin.org/get');
     
 
-Các promise được trả về bởi những hàm trên có cài đặt, tuân theo [Promises/A+ spec][4], được cung cấp bởi [Guzzle promises library][5]. Điều này có nghĩa rằng bạn có thể gọi nối hàm `then()` sau promise. Những lời gọi phía sau này hoặc có kèm một `PsrHttpMessageResponseInterface` thành công hoặc bị từ chối với một ngoại lệ.
+Các promise được trả về bởi những hàm trên có cài đặt, tuân theo [Promises/A+ spec][4], được cung cấp bởi [Guzzle promises library][5]. Điều này có nghĩa rằng bạn có thể gọi nối hàm `then()` sau promise. Những lời gọi phía sau này hoặc có kèm một `PsrHttpMessageResponseInterface` nếu thành công hoặc bị từ chối với một ngoại lệ.
     
     
     use PsrHttpMessageResponseInterface;
@@ -216,8 +215,6 @@ Hoặc sử dụng một closure mà trả về một promise khi pool gọi clo
 
 ## Sử dụng các Responses
 
-In the previous examples, we retrieved a `$response` variable or we were delivered a response from a promise. The response object implements a PSR-7 response, `PsrHttpMessageResponseInterface`, and contains lots of helpful information.
-
 Trong các ví dụ trên, chúng ta đã nhận được biến `$response` hoặc ta nhận được response từ một promise. Đối tượng response sẽ tuân theo một response PSR-7, `PsrHttpMessageResponseInterface`, và chứa rất nhiều thông tin hữu ích.
 
 Chúng ta có thể lấy được code trạng thái và reason phrase của response:
@@ -244,7 +241,7 @@ Bạn cũng có thể lấy được các header từ response:
     }
     
 
-Nội dung body của một response có thể được lấy bằng cách sử dụng hàm `getBody`. Body có thể được sử dụng như một string, ép kiểu thành string, hay sử dụng như một luồng giống đối tượng.
+Nội dung body của một response có thể được lấy bằng cách sử dụng hàm `getBody`. Body có thể được sử dụng như một string, ép kiểu thành string, hay sử dụng như một luồng của đối tượng.
     
     
     $body = $response->getBody();
@@ -315,7 +312,6 @@ Một cách đơn giản để upload dữ liệu JSON và đặt header phù h�
 
 ### POST/Form Requests
 
-In addition to specifying the raw data of a request using the `body` request option, Guzzle provides helpful abstractions over sending POST data.
 
 Ngoài việc chỉ rõ dữ liệu thô của một request sử dụng các tùy chọn request `body`, Guzzle cũng cấp các lớp trừu tượng hữu ích trong quá trình gửi dữ liệu POST.
 
@@ -382,7 +378,7 @@ Guzzle có thể duy trì một phiên cookie nếu được yêu cầu sử d�
     ]);
     
 
-Bạn có thể gán `cookies` bằng `true` trong client constructor nếu bạn muốn sử dụng shared cookie jar cho tất cả các request.
+Bạn có thể gán `cookies` bằng `true` trong constructor của client nếu bạn muốn sử dụng shared cookie jar cho tất cả các request.
     
     
     // Use a shared client cookie jar
@@ -458,9 +454,6 @@ Tất cả những ngoại lệ trên đều kế thừa từ  `GuzzleHttpExcept
 ## Environment Variables (Biến môi trường)
 
 Guzzle cung cấp một vài biến môi trường để có thể sử dụng để tuỳ chỉnh hành động của thư viện.
-
-`GUZZLE_CURL_SELECT_TIMEOUT`
-: Controls the duration in seconds that a curl_multi_* handler will use when selecting on curl handles using `curl_multi_select()`. Some systems have issues with PHP's implementation of `curl_multi_select()` where calling this function always results in waiting for the maximum duration of the timeout.
 
 `GUZZLE_CURL_SELECT_TIMEOUT`
 : điều chỉnh khoảng thời gian tính bằng giây mà một curl_multi_* handler sử dụng khi chọn curl handles bằng cách sử dụng `curl_multi_select()`. Một vài hệ thống có vấn đề với các triển khai của PHP của `curl_multi_select()` khi mà việc gọi hàm này luôn dẫn tới việc phải chờ trong khoảng thời gian timeout tối đa.

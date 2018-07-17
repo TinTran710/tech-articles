@@ -7,11 +7,11 @@ Jenny Gove là một UX Research Lead tại Google, tại đó cô đã thực h
 
 Google và AnswerLab đã thực hiện một [nghiên cứu][2] để trả lời cho câu hỏi này.
 
-> Người dùng mobile sử dụng khi sử dụng rất có khuynh hướng hướng   mục tiêu. Họ  mong chờ sẽ có được những thứ họ  cần ngay lập tức và theo cách của riêng họ.
+> Người dùng mobile khi sử dụng rất có khuynh hướng  mục tiêu. Họ  mong chờ sẽ có được những thứ họ  cần ngay lập tức và theo cách của riêng họ.
 
 Nghiên cứu được thực hiện trong 119 giờ đồng hồ, bao gồm  các phiên  trải nghiệm sử dụng trực tiếp của  những người đến từ Mỹ. Những người tham gia trải nghiệm được yêu cầu thực hiện các tác vụ trên nhiều trang mobile khác nhau.   Người dùng iOS và Android cũng tham gia thử nghiệm, và họ thực hiện các thử nghiệm trên chính điện thoại của họ. Với mỗi trang, người tham gia sẽ bày tỏ cảm nhận, suy nghĩ của bản thân khi họ hoàn thành các tác vụ  khác nhau như mua bán hay đặt chỗ
 
-Nghiên cứu đã tìm ra 25 quy tắc thiết kế  cho  cáctrang mobile, và được phân thành 5 thể loại.
+Nghiên cứu đã tìm ra 25 quy tắc thiết kế  cho  các trang mobile, và được phân thành 5 thể loại.
 
 ## Home page và site navigation
 
@@ -37,7 +37,7 @@ Mobile users không có đủ kiên nhẫn để scroll qua một danh sách dà
 
 Users sẽ mong muốn có thể  quay lại homepage khi họ chạm vào logo tại phía trên bên trái của một trang mobile, và họ sẽ bực bội nếu điều này không khả dụng .
 
-### Đừng để các khuyến mãi chiếm  hết  show diễn
+### Đừng để các quảng cáo chiếm  hết  show diễn
 
 Các quảng cáo xen kẽ lớn mà yêu cầu cài đặt app (ví dụ: các khuyến mãi chiếm cả màn hình sẽ ẩn các nội dung và yêu cầu users cài đặt app) sẽ làm phiền users và gây cản trở trong việc thực hiện các tác vụ. Ngoài việc làm phiền users,  [các trang sử dụng quảng cáo xen kẽ có thể  bị tác động tiêu cực đến thính thứ hạng tìm kiếm của họ][8]
 
@@ -83,7 +83,7 @@ Mục tiêu: Thấu hiểu trải nghiệm, hành trình  của khách hàng và
 
 ### Để users trải nghiệm trước khi  yêu cầu họ  cam kết
 
-Những người tham gia thử nghiệm  nói rằng họ  bực bội  bởi những trang mà yêu cầu phải đăng ký ngay trên màn hình để xem trang, đặc biệt đối  với những trang không nổi tiếng. Mặc dù thông tin khách hàng rất quan trọng  đối với mô hình kinh  doanh của bạn, yêu cầu điều này quá sớm có thể dẫn đến  việc  có ít người đăng ký hơn.
+Những người tham gia thử nghiệm  nói rằng họ  bực bội  bởi những trang mà yêu cầu phải đăng ký trước để xem trang, đặc biệt đối  với những trang không nổi tiếng. Mặc dù thông tin khách hàng rất quan trọng  đối với mô hình kinh  doanh của bạn, yêu cầu điều này quá sớm có thể dẫn đến  việc  có ít người đăng ký hơn.
 
 ![][20]**Nên**: Cho phép users xem trang mà không yêu cầu đăng nhập. 
 
@@ -91,7 +91,7 @@ Những người tham gia thử nghiệm  nói rằng họ  bực bội  bởi n
 
 ### Hãy cho phép users mua hàng dưới dạng guests (khách)
 
-![][22]**Nên**: Cho phép users mua hàng tài khoản khách.
+![][22]**Nên**: Cho phép users mua hàng ba tài khoản khách.
 
 Những người tham gia thử nghiệm  nhìn nhận  việc  thanh toán bằng tài khoản khách là rất tiện lợi, đơn giản và nhanh chóng. Users  sẽ bị phiền bởi những trang mà ép họ phải đăng ký tài khoản khi mua hàng, đặc biệt khi lợi ích của việc  sở hữu tài khoản là không rõ ràng.
 
@@ -168,7 +168,7 @@ Những người tham gia trải nghiệm có khuynh hướng  sử dụng cùng
 
 Users có thể gặp vấn đề trong việc chuyển qua lại giữa các  cửa sổ và có thể không tìm thấy lối về trang. Hãy tránh việc  làm  ra các calls-to-action  mà tạo ra cửa sổ mới. Hãy tìm ra bất kỳ luồng nào mà có thể gây ra việc điều hướng users tìm kiếm bên ngoài trang và hãy cung cấp các tính năng để giữ họ tại trang của bạn. Ví dụ, nếu bạn chấp nhận phiế u giảm giá, hãy hiện thực hóa điều này trực tiếp trên trang của bạn, hơn là việc yêu cầu users phải tìm kiếm  các deal tại các trang khác.
 
-### Tránh việc hiển thị nhãn cả trang
+### Tránh việc hiển thị nhãn " trang đầy đủ"
 
 Khi những ngươì tham gia trải nghiệm thấy một  tùy chọn  cỡ toàn màn hình (ví dụ cỡ desktop) so với tùy chọn "cỡ mobile",  họ sẽ nghĩ tùy chọn cỡ mobile bị thiếu  nội dung và lựa chọn cái cỡ "toàn  màn hình" , điều này sẽ dẫn họ tới trang desktop.
 

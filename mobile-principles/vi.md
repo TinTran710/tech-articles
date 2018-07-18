@@ -1,226 +1,216 @@
+#  Điều gì làm nên một trang web Mobile tốt? | Cơ bản về Web | Google Developers
 
-[Source](https://developers.google.com/web/fundamentals/design-and-ux/principles/ "Permalink to What Makes a Good Mobile Site?  |  Web Fundamentals  |  Google Developers")
+![Jenny Gove](https://developers.google.com/web/images/contributors/jennygove.jpg)
 
-# Điều gì làm nên một trang Mobile tốt?  |  Cơ bản về Web  |  Google Developers
+**Bởi** [ Jenny Gove ](https://developers.google.com/web/resources/contributors/jennygove)
 
-Jenny Gove là một UX Research Lead tại Google, tại đó cô đã thực hiện các nghiên cứu về trải nghiệm trên smartphone. Cô có bằng  Tiến sĩ tại đại học Southampton, Anh.
+Jenny Gove là một trưởng nhóm nghiên cứu UX tại Google, nơi bà tiến hành nghiên cứu về  trải nghiệm điện thoại thông minh. Bà nhận bằng tiến sĩ từ Đại học Southampton, Vương quốc Anh.
 
-Google và AnswerLab đã thực hiện một [nghiên cứu][2] để trả lời cho câu hỏi này.
+Google và AnswerLab đã tiến hành một [nghiên cứu](https://www.google.com/think/multiscreen/whitepaper-sitedesign.html?utm_source=web-fundamentals&utm_term=chrome&utm_content=ux-landing&utm_campaign=web-fundamentals) để trả lời cho câu hỏi này.
 
-> Người dùng mobile sử dụng khi sử dụng rất có khuynh hướng hướng   mục tiêu. Họ  mong chờ sẽ có được những thứ họ  cần ngay lập tức và theo cách của riêng họ.
+> Người dùng di động có định hướng về mục tiêu. Họ mong đợi có thể có được những gì họ cần, ngay lập tức, và theo mong muốn riêng của họ.
 
-Nghiên cứu được thực hiện trong 119 giờ đồng hồ, bao gồm  các phiên  trải nghiệm sử dụng trực tiếp của  những người đến từ Mỹ. Những người tham gia trải nghiệm được yêu cầu thực hiện các tác vụ trên nhiều trang mobile khác nhau.   Người dùng iOS và Android cũng tham gia thử nghiệm, và họ thực hiện các thử nghiệm trên chính điện thoại của họ. Với mỗi trang, người tham gia sẽ bày tỏ cảm nhận, suy nghĩ của bản thân khi họ hoàn thành các tác vụ  khác nhau như mua bán hay đặt chỗ
+Nghiên cứu của tổ chức được thực hiện trong 119 giờ đồng hồ, với các cuộc thử nghiệm từ những người tham gia trực tiếp ở Mỹ. Những người tham gia được yêu cầu thực hiện các nhiệm vụ chính trên một tập hợp các trang web mobile đa dạng. Bao gồm cả những người dùng IOS và Android, và những người dùng thử nghiệm các trang web trên chính điện thoại của chính họ. Đối với mỗi trang web, người tham gia sẽ được hỏi để nói lên suy nghĩ của họ khi họ hoàn thành các công việc liên quan đến giao tiếp như một giao dịch hay đặt chỗ trước.
 
-Nghiên cứu đã tìm ra 25 quy tắc thiết kế  cho  cáctrang mobile, và được phân thành 5 thể loại.
+Nghiên cứu đã khám phá ra 25 nguyên lý thiết kế trang web mobile, được nhóm thành 5 chủ đề.
 
-## Home page và site navigation
+## Trang chủ và trang điều hướng.
 
-**Mục tiêu:** Làm trang homepage của mobile có thể kết nối users với nội dung mà họ đang tìm kiếm.
+**Thành công:** Tập trung vào trang chủ trên mobile của bạn để kết nối với người dùng với nội dung họ đang tìm kiếm.
 
-### Giữ các call to action (lời kêu gọi hành động) ở đằng trước và chính giữa
+### Giữ các lời gọi hành động ở trước và giữa 
 
-Hãy làm sao để các tác vụ thứ hai có thể thực hiện thông qua [menus][3] hoặc tại "phía dưới màn hình" (phần của webpage mà ta không thể thấy  nếu không vuốt xuống).
+Thưc hiện các tác vụ có sẵn thông qua [menus](https://developers.google.com/web/fundamentals/design-and-ux/responsive/) hoặc “dưới màn hình đầu tiên” (một phần của trang web không thể xem được mà không cần cuộc xuống).
 
-![][4]**Nên**: Làm sao để tất cả các tác vụ cơ bản của người dùng  trở nên  đơn giản và khả dụng nhất.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-cta-good.png) 
+**Nên Làm**: Tất cả các tác vụ phổ biến nhất của người dùng được thực hiện một cách dễ dàng.
 
-![][5]**Không nên**: Lãng phí không gian ở phần nổi của màn hình vào những calls-to-action (lời kêu gọi hành động) mơ hồ như "Tìm hiểu thêm".
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-cta-bad.png) 
+**Không làm**: Lãng phí không gian quý giá trên màn hình đầu tiên với những lời gọi hành động không rõ ràng như "tìm hiểu thêm".
 
-### Giữ các menu ngắn và đẹp
+### Giữ cho các menu ngắn và hấp dẫn.
 
-![][6]**Nên**: Giữ các menu ngắn và đẹp. 
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-menus-good.png) 
+**Nên Làm**: Giữ cho các menu ngắn và hấp dẫn
 
-Mobile users không có đủ kiên nhẫn để scroll qua một danh sách dài các lựa chọn để tìm thứ mà họ muốn. Sắp xếp lại menu của bạn   sử dụng càng ít các thành phần càng tốt mà không làm mất đi khả năng sử dụng.
+Người dùng thiết bị di động không có đủ kiên nhẫn để cuộn qua các danh sách dài tuỳ chọn để tìm điều họ muốn. Sắp xếp lại menu của bạn để sử dụng với ít mục nhất có thể, mà không phải hy sinh khả năng sử dụng.
 
-### Đơn giản hóa việc quay lại home page
+### Hãy làm dễ dàng việc quay lại trang chủ
 
-![][7]**Nên**: Đơn giản hóa việc quay lại home page. 
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-hp-good.png) 
+**Nên làm**: Hãy làm dễ dàng việc quay lại trang chủ
 
-Users sẽ mong muốn có thể  quay lại homepage khi họ chạm vào logo tại phía trên bên trái của một trang mobile, và họ sẽ bực bội nếu điều này không khả dụng .
+Người dùng mong muốn quay lại trang chủ khi họ chạm vào logo trên cùng bên trái của một trang mobile, và họ trở nên thất vọng khi nó không có sẵn hoặc không hoạt động.
 
-### Đừng để các khuyến mãi chiếm  hết  show diễn
+### Đừng để quảng cáo chiếm mất phần hiển thị chính.
 
-Các quảng cáo xen kẽ lớn mà yêu cầu cài đặt app (ví dụ: các khuyến mãi chiếm cả màn hình sẽ ẩn các nội dung và yêu cầu users cài đặt app) sẽ làm phiền users và gây cản trở trong việc thực hiện các tác vụ. Ngoài việc làm phiền users,  [các trang sử dụng quảng cáo xen kẽ có thể  bị tác động tiêu cực đến thính thứ hạng tìm kiếm của họ][8]
+Các quảng cáo xen kẽ cỡ lớn mà yêu cầu cài đặt app (ví dụ: Quảng cáo tràn ra khỏi trang sẽ làm ẩn đi nội dung và nhắc người dùng cài đặt một ứng dụng) sẽ làm phiền người dùng và khiến việc thực hiện các tác vụ trở nên khó khăn. Ngoài gây phiền nhiễu cho người dùng, [các trang web sử dụng các quảng cáo xen kẽ có thể thấy tác động tiêu cực đến thứ hạng tìm kiếm của họ](https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html).
 
-![][9]**Nên**: Các khuyến mãi nên được bỏ qua một cách dễ dàng và không được ảnh hưởng đến trải nghiệm sử dụng.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-promo-good.png) 
+**Nên làm**: Quảng cáo phải dễ dàng được loại bỏ và không làm sao lãng trải nghiệm.
 
-![][10]**Không nên**: Các quảng cáo xen kẽ (đôi khi được gọi là những cái đóng sập cửa) thường làm phiền users và làm việc trải nghiệm trang  trở nên rất khổ sở.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-promo-bad.png) 
+**Không làm**: Quảng cáo xen kẽ (Đôi khi gọi là sập cửa) thường kiến làm phiền người dùng và làm cho việc sử dụng trang web trở nên không tốt.
 
 ## Trang tìm kiếm
 
-**Mục tiêu:** Giúp mobile users tìm thấy những gì họ muốn nhanh chóng.
+**Thành công:** Giúp người dùng thiết bị di động tìm thấy những gì họ tìm kiếm một cách nhanh chóng.
 
-### Hiển thị trang tìm kiếm 
+### Hiển thị thanh tìm kiếm trang web 
 
-Users tìm kiếm thông tin thường chuyển sang việc sử dụng  công cụ tìm kiếm, do vậy phần tìm kiếm nên là một trong những thứ đầu tiên được  nhìn thấy trên trang của bạn. Đừng ẩn thanh tìm  kiếm  vào trong menu.
+Người dùng tìm kiếm thông tin luôn luôn mở thanh tìm kiếm, vì vậy thanh tìm kiếm nên là thứ đầu tiên họ thấy trên các trang của bạn. Đừng ẩn thanh tìm kiếm trong menu.
 
-![][11]**Nên**: Hiện thị tìm kiếm 
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-search-good.jpg) 
+**Nên làm**: Hiển thị thanh tìm kiếm
 
-![][12]**Không nên**: Ẩn tìm kiếm vào trong các overflow menus.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-search-bad.jpg) 
+**Không làm**: Ẩn thanh tìm kiếm ông các menu tràn ra
 
-### Đảm bảo rằng kết quả của  trang tìm kiếm  cho ra  các  thông tin liên quan
+### Đảm bảo kết quả tìm kiếm có liên quan
 
-Users sẽ không lướt qua nhiều trang kết quả để  thứ mà họ đang cần. Hãy làm mọi thứ cho users trở nên dễ dàng hơn bằng  việc  áp dụng  tính năng  tự động gợi ý  , hoàn thiện và sửa lỗi chính tả khi tìm kiếm . Thay vì tự mình làm ,hãy cân nhắc việc sử dụng sản phẩm  chất lượng như [Google Custom Search][13].
+Người dùng không muốn phải duyệt qua nhiều trang kết qủa để tìm kiếm điều mà họ đang tìm. Giúp người dùng dễ dàng hơn bằng các câu truy vấn gợi ý, sửa lỗi chính tả, và gợi ý các truy vấn liên quan. Thay vì làm lại những gì đã có, hãy xem xét các sản phẩm mạnh mẽ như [Google Custom Search](https://cse.google.com/cse/).
 
-![][14]**Nên**: Trang của Macy chỉ nên trả về các kết quả liên đến các vật phẩm về trẻ em.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-relevant-good.png) 
+**Nên làm**: Macy chỉ trả về các sản phẩn trẻ em.
 
-![][15]**Không nên**: Không nên trả về các kết quả mà có chứa từ kid trong đó.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-relevant-bad.png) 
+**Không làm**: Trả về kết quả cho bất kì thứ gì có từ kid trong đó.
 
-### Áp dụng filters để giới hạn kết quả
+### Triển khai bộ lọc để thu hẹp kết quả.
 
-Những người tham gia cuộc thử nghiệm  sử dụng và phụ thuộc  vào  [filters][16] để tìm kiếm những gì họ cần, và bỏ qua  các trang mà không có filter hiệu quả. Hãy đặt filter phía trên kết quả tìm kiếm, và giúp users  bằng cách hiển thị  số lượng kết quả trả về nếu một filter được áp dụng.
+Các người tham gia nghiên cứu dựa vào các [bộ lọc](https://developers.google.com/custom-search/docs/structured_search) để tìm kiếm điều mà họ đang tìm, và từ bỏ các trang web không có bộ lọc hiểu quả. Đặt bộ lọc ở phía trên kết quả tìm kiếm và giúp người dùng hiển thị số lượng kết quả sẽ được trả lại khi một bộ lọc được áp dụng.
 
-![][17]**Nên**: Làm việc filter trở nên dễ dàng. 
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-filters-good.jpg) 
+**Nên làm**: Tạo bộ lọc dễ dàng hơn.
 
-![][18]**Không nên**: Ẩn chức năng của filter.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-filters-bad.jpg) 
+**Không làm**: Ẩn chức năng lọc.
 
-### Điều hướng, chỉ dẫn users tới các trang tìm kiếm có kết quả tốt hơn
+### Hướng dẫn người dùng để có kết quả tìm kiếm trên trang web tốt hơn.
 
-![Zappos guides users by asking them what they're looking for.][19]**Nên**: Giúp users tìm thấy những gì họ tìm kiếm bằng  cách chỉ dẫn họ.
-Đối với những trang có nhiều phần về khách hàng, hãy hỏi một vài câu hỏi trước khi hiển thị thanh tìm kiếm, và sử dụng phản hồi của khách hàng làm filter cho câu truy vấn tìm kiếm để đảm bảo rằng users có được kết quả từ phần liên quan nhất.
+Đối với các trang web có phân đoạn khách hàng đa dạng, hãy hỏi một số câu hỏi trước khi bắt đầu tìm kiếm và sử dụng câu trả lời của khách hàng làm câu truy vấn tìm kiếm để đảm bảo rằng người dùng lấy được các kết quả từ phân đoạn có liên quan nhất.
 
-## Thương mại và chuyển đổi
-Mục tiêu: Thấu hiểu trải nghiệm, hành trình  của khách hàng và cho phép users chuyển đổi theo các điều khoản của riêng họ.
+![Zappos guides users by asking them what they're looking for.](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-guide-good.png) 
+**Nên làm**: Giúp người dùng tìm kiếm điều mà họ đang tìm bằng cách hướng dẫn họ đi đúng hướng.
 
-### Để users trải nghiệm trước khi  yêu cầu họ  cam kết
+## Thương mại và chuyển đổi.
 
-Những người tham gia thử nghiệm  nói rằng họ  bực bội  bởi những trang mà yêu cầu phải đăng ký ngay trên màn hình để xem trang, đặc biệt đối  với những trang không nổi tiếng. Mặc dù thông tin khách hàng rất quan trọng  đối với mô hình kinh  doanh của bạn, yêu cầu điều này quá sớm có thể dẫn đến  việc  có ít người đăng ký hơn.
+**Thành công:** Hiểu được hành trình của khách hàng và để người dùng chuyển thành các điều khoản của riêng họ.
 
-![][20]**Nên**: Cho phép users xem trang mà không yêu cầu đăng nhập. 
+### Để người dùng khám phá trước khi họ cam kết.
 
-![][21]**Không nên**: Hiển thị các phần đăng nhập hoặc đăng ký quá sớm trong một trang. 
+Người tham gia nghiên cứu thất vọng bởi các trang web yêu cầu đăng kí trả trước để xem trang, đặc biệt với những trang không quá quen thuộc. Mặc dù thông tin khách hàng có thể là không tách rời với doanh nghiệp của bạn, yều cầu quá sớm có thể dẫn đến ít đăng kí hơn.
 
-### Hãy cho phép users mua hàng dưới dạng guests (khách)
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/cc-gates-good.png) 
+**Nên làm**: Cho phép người dùng xem trang web mà không yêu cầu đăng nhập.
 
-![][22]**Nên**: Cho phép users mua hàng tài khoản khách.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/cc-gates-bad.png) 
+**Không làm**: Đặt đăng nhập hoặc đăng kí quá sớm trong một trang web
 
-Những người tham gia thử nghiệm  nhìn nhận  việc  thanh toán bằng tài khoản khách là rất tiện lợi, đơn giản và nhanh chóng. Users  sẽ bị phiền bởi những trang mà ép họ phải đăng ký tài khoản khi mua hàng, đặc biệt khi lợi ích của việc  sở hữu tài khoản là không rõ ràng.
+### Để người dùng mua với tư cách khách hàng
 
-### Sử dụng thông tin có sẵn để tối đa hóa sự  tiện lợi
+Người tham gia nghiên cứu đã xem các đánh giá của khách hàng là "thuận tiện", "đơn giản", "dễ  dàng" và "nhanh chóng". Người dùng cảm thấy khó chịu bởi các trang web buộc họ đăng kí tài khoản khi mua hàng, đặc biệt khi lợi ích tài khoản là không rõ ràng. 
 
-Hãy lưu lại và tự động điền sẵn thông tin  đối với  những users đã đăng ký.  Cung cấp các dịch vụ tương tự thanh toán cho bên thứ 3 đối với khách hàng mới.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/cc-purchase-guest-good.png) 
+**Nên làm**: Cho phép người dùng mua với tài khoản khách hàng
 
-### Sử dụng click-to-call (click-để-gọi) đối với những tác vụ phức tạp 
 
-Trên những thiết bị có chức năng gọi điện, [các đường dẫn  click-để-gọi][24] cho phép users gọi điện chỉ đơn giản bằng cách chạm vào đường dẫn. Trên hầu hết các thiết bị mobile, users nhận được yêu cầu xác nhận gọi trước khi số  máy được quay, hoặc một menu được hiển thị để hỏi người dùng cách xử lý số máy .
+### Sử dụng thông tin hiện có để tối đa hoá sự tiện lợi
 
-### Đơn giản hóa việc kết thúc trên thiết bị khác
+Ghi nhớ và [điền trước các tuy chọn](https://developers.google.com/web/fundamentals/design-and-ux/input/forms/#label-and-name-inputs-properly) cho người dùng đăng kí. Đề xuất dịch vụ quen thuộc,dịch vụ thanh toán của bên thứ ba ho người dùng mới.
 
-![][25]**Nên**: Cung cấp cách đơn giản để users tiếp tục  xem hoặc mua bán trên thiết bị khác. 
+### Sử dụng các nút "click" để gọi cho các công việc phức tạp.
 
-Users thường muốn kết thúc tác vụ trên thiết bị khác. Ví dụ, họ có thể muốn xem một vật phẩm trên màn hình lớn hơn. Hoặc họ có thể  đang bận và muốn hoàn thành nó sau. Hãy hỗ trợ trải nghiệm này của khách hàng bằng cách  cho phép users [chia sẻ vật phẩm trên mạng xã hội][26], hoặc cho phép users tự email chính bản thân các link trực tiếp từ trong site.
+Trên các thiết bị có khả năng gọi điện, [liên kết "click" để gọi](https://developers.google.com/web/fundamentals/native-hardware/click-to-call/) cho phép người dùng thực hiện một cuộc gọi điện đơn giản bằng cách chỉ cần nhấp vào liên kết. Trên hầu hết các thiết bị mobile , người dùng sẽ xác nhận trước khi số được gọi hoặc một danh sách sẽ hiện để yêu cầu người dùng cách mà số sẽ được xử lý.
 
-## Từ ban đầu
+### Dễ dàng hoàn hiện trên cách thiết bị khác.
 
-**Mục tiêu:** Cung cấp một trải nghiệm chuyển đổi  liền mạch với  các form có thể sử dụng được.
+Người dùng hầu như muốn hoàn thành các tác vụ trên một thiết bị khác. Ví dụ, họ có thể  sẽ muốn xem một mục trên một màn hình lớn hơn. Hoặc họ có thể bận rộn và muốn hoàn thành sau. Hỗ trợ khách hàng bằng cách cho phép người dùng[chia sẻ các mục trên mạng xã hội](https://developers.google.com/web/fundamentals/discovery-and-monetization/social-discovery/), hoặc bằng cách cho phép người dùng tự gửi email liên kết trực tiếp từ trang web.
 
-### Điều hướng tại mục thông tin nhập vào
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/cc-other-device-good.png) 
+**Nên làm**: Cung cấp các cách dễ dàng cho người dùng để tiếp tục duyệt hoặc mua sắm trên một thiết bị khác.
 
-Tự động chuyển sang mục tiếp theo khi user ấn Return. Thông thường,  users  phải ấn càng ít thì sẽ càng tốt.
 
-### Lựa chọn input đơn giản nhất
+## Đầu vào form 
 
-Sử dụng [kiểu input phù hợp][27] nhất đối với mỗi trường hợp. Sử dụng các thành phần như [`datalist`][28] để có các giá trị gợi ý cho một trường.
+**Thành công:** Cung cấp trải nghiệm chuyển đổi liền mạch, mượt mà với các form sử dụng được.
 
-### Cung cấp một lịch trực quan cho việc lựa chọn ngày
+### Hợp lý hoá đầu vào của thông tin.
 
-![][29]**Nên**: sử dụng calendar widgets khi có thể. 
+Tự động chuyển sang trường tiếp theo khi người dùng nhấn Return. Thông thường, càng ít thao tác thực hiện càng tốt.
 
-Làm nổi rõ ngày bắt đầu và ngày kết thúc. Không nên để users phải thoát trang và mở ứng dụng lịch để lên lịch ngày.
+### Chọn đầu vào đơn giản nhất.
 
-### Giảm thiểu tối đa lỗi form bằng việc  hiển thị nhãn và validate  một  cách real-time
+Sự dụng [đầu vào phù hợp nhất](https://developers.google.com/web/fundamentals/design-and-ux/input/forms/choose-the-best-input-type) cho mỗi trường hợp. Sử dụng phần tử giống như[`datalist`](https://developers.google.com/web/fundamentals/design-and-ux/input/forms/choose-the-best-input-type#offer-suggestions-during-input-with-datalist) để cung cấp giá trị gợi ý cho một trường.
 
-![][30]**Nên**: Hiển thị trước nội dung tại bất cứ đâu có thể.
+### Cung cấp lịch trực quan để chọn ngày.
 
-Gán nhãn input một cách chính xác và validate input trong real-time.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/forms-calendar-good.png) 
+**Nên làm**: Sử dụng lịch khi có thể.
 
-### Thiết kế các form hiệu quả
+Ghi rõ ngày bắt đầu và kết thúc. Người dùng không cần phải dời trang web và kiểm tra một ứng dụng lịch khác chỉ để lên lịch cho một ngày.
 
-Tận dụng lợi ích của [autofill][31] để  users có thể  điền form một cách dễ dàng với dữ diệu được hiển thị từ trước. Các trường được điền từ trước  với những thông tin mà bạn đã biết. Ví dụ, khi nhận thông tin về  địa chỉ giao hàng và thanh toán, hãy cố gắng sử  dụng [`requestAutocomplete`][32] hoặc cho phép users  sao chép địa chỉ giao hàng của họ tới địa chỉ thanh toán (hoặc ngược lại).
+
+### Giảm thiểu lỗi form với các nhãn và các xác thực thời gian thực.
+
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/forms-multipart-good.png) 
+**Nên làm**: Chuẩn bị trước nội dung nếu có thể
+
+Nhập nhãn dán đúng cách và xác thức đầu vào trong thời gian thực.
+
+### Thiết kế biểu mẫu hiệu quả.
+
+Tận dụng tính năng [tự động điền](https://developers.google.com/web/fundamentals/design-and-ux/input/forms/#label-and-name-inputs-properly#use-metadata-to-enable-auto-complete) để người dùng có thể dễ dàng hoàn thành form với dữ liệu đã được điền trước.
+Điền sẵn các trường có các thông tin bạn đã biết. Ví dụ, khi lấy địa chỉ chuyển hàng và thanh toán, cố gắng sử dụng [`requestAutocomplete`](https://developers.google.com/web/fundamentals/design-and-ux/input/forms/use-request-auto-complete) hoặc cho phép người dùng sao chép địa chỉ chuyển hàng của họ vào địa chỉ thanh toán (hoặc ngược lại).
 
 ## Tính sử dụng và yếu tố hình thức
 
-**Mục tiêu:** Làm vui mobile users với những điều nhỏ  mà làm tăng trải nghiệm của họ.
+**Thành công:** Làm hài lòng người dùng thiết bị di động với những thứ nhỏ giúp nâng cao trải nghiệm của họ.
 
-### Tối ưu hóa toàn bộ site của bạn cho mobile
+### Tối ưu hoá toàn bộ trang web của bạn cho mobile
 
-Sử dụng một [responsive layout][3]  mà thay đổi dựa trên kích cỡ  và  khả năng  hiển thị của thiết bị. Những người tham gia trải nghiệm  thấy rằng  những trang  tối ưu cho cả desktop và mobile còn khó sử dụng hơn  cả trang chỉ dành cho desktop.
+Sử dụng một [responsive layout](https://developers.google.com/web/fundamentals/design-and-ux/responsive/) thay đổi dựa trên kích thước và khả năng của thiết bị của người dùng. Người tham gia nghiên cứu đã tìm thấy trang web có sự kết hợp giữa các trang cho desktop và tối ưu hoá cho mobile, thậm chí còn khó sử dụng hơn các trang web trên desktop.
 
-### Đừng để users phải nhấn vào để phóng to
+### Không làm cho người dùng phải zoom
 
-Users thường thoải mái với việc scroll trang theo chiều dọc hơn là  theo chiều ngang. Hãy tránh các thành phần lớn và có độ rộng cố định. Đừng tạo  ra nội dung  mà chỉ hiển thị tốt tại một [khung hình có độ rộng nhất định][34]. Các trang ép users phải scroll theo chiều ngang sẽ  không vượt qua [Google Mobile-Friendly Test][35], điều này sẽ ảnh hưởng tiêu cực đến thứ hạng tìm kiếm của họ. 
+Người dùng cảm thấy thoải mái với các trang web cuộn theo chiều dọc nhưng không phải theo chiều ngang. Tránh các phần tử có chiều rộng cố định lớn. Sử dụng [CSS media queries](https://developers.google.com/web/fundamentals/design-and-ux/responsive/#use-css-media-queries-for-responsiveness) để áp dụng các dịnh dạng khác nhau cho các màn hình khác nhau. Đừng tạo nội dung mà chỉ hiển thị tốt ở màn hình cá nhân [theo chiều rộng hiện thị](https://developers.google.com/web/fundamentals/design-and-ux/responsive/#set-the-viewport). Các trang web buộc người dùng cuộn theo chiều ngang sẽ không thành công ở [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), điều này có thể tác động tiêu cực đến xếp hạng tìm kiếm của họ.
 
-### Hãy làm các ảnh sản phẩm có thể  mở rộng 
+### Làm cho các hình ảnh sản phẩm có thể được mở rộng
 
-![][36]**Nên**: Làm các ảnh sản phẩm có thể  mở rộng  dễ dàng xem chi tiết  ảnh.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/sw-make-images-expandable-good.png) 
+**Nên làm**: Làm cho các hình ảnh sản phẩm có thể được mở rộng và dễ dàng xem chi tiết.
 
-Các khách hàng bán lẻ mong muốn các trang cho phép họ xem các sản phẩm [cận cảnh ở độ phân giải cao][37]. Những người tham  gia trải nghiệm  cho biết họ rất bực bội khi không xem những thứ họ đang mua.
+Khách hàng bán lẻ mong đợi các trang web sẽ cho họ [xem cận cảnh có độ phân giải cao](https://developers.google.com/web/fundamentals/design-and-ux/responsive/images#make-product-images-expandable) của sản phẩm. Những người tham gia nghiên cứu cảm thấy thất vọng khi không thể thấy những gì họ đang mua.
 
-### Cho users biết hướng xoay nào là tốt nhất
+### Cho người dùng biết định hướng nào hoạt động tốt nhất
 
-![][38]**Nên**: Cho users biết hướng xoay nào là tốt nhất.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/us-orientation.jpg) 
+**Nên làm**: Cho người dùng biết định hướng nào hoạt động tốt nhất.
 
-Những người tham gia trải nghiệm có khuynh hướng  sử dụng cùng một hướng xoay màn hình cho tới khi có một thông báo bảo họ  nên chuyển .  Hãy thiết kế cho cả chiều ngang và chiều dọc  hoặc khuyến khích users  thay đổi hướng xoay .
- Hãy đảm bảo rằng các calls-to-action quan trọng của bạn có thể được thực hiện cho dù users bỏ qua việc xoay màn hình như được đề xuất.
+Những người tham gia nghiên cứu có khuynh hướng ở cùng một hướng màn hình cho đến khi có một cái gì đó nhắc họ chuyển đổi. Thiết kế theo cả 2 chiều ngang và dọc, hoặc khuyến khích người dùng chuyển sang hướng tối ưu. Hãy chắc chắn rằng các lời gọị hành động quan trọng có thể được hoàn thành ngay cả khi người dùng bỏ qua đề xuất để chuyển hướng.
 
-### Giữ users của bạn chỉ trong một cửa sổ trình duyệt
+### Giữ người dùng của bạn trong một trình duyệt duy nhất.
 
-![][39]**Nên**: Trang Macy giữ users của họ trên trang bằng cách cung cấp  phiếu giảm  giá trên trang.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/sw-single-browser-good.png) 
+**Nên làm**: Macy giữ người dùng trên trang web của họ bằng cách cung cấp phiếu giảm giá trên trang web.
 
-Users có thể gặp vấn đề trong việc chuyển qua lại giữa các  cửa sổ và có thể không tìm thấy lối về trang. Hãy tránh việc  làm  ra các calls-to-action  mà tạo ra cửa sổ mới. Hãy tìm ra bất kỳ luồng nào mà có thể gây ra việc điều hướng users tìm kiếm bên ngoài trang và hãy cung cấp các tính năng để giữ họ tại trang của bạn. Ví dụ, nếu bạn chấp nhận phiế u giảm giá, hãy hiện thực hóa điều này trực tiếp trên trang của bạn, hơn là việc yêu cầu users phải tìm kiếm  các deal tại các trang khác.
+Người dùng có thể gặp vấn đề khi chuyển đổi giữa các cửa sổ và có thể không tìm được đường trở lại trang web. Tránh gọi hành động mà khởi động một cửa sổ mới. Xác định bất kì hành trình nào mà có thể khiến người dùng điều hướng ra ngoài trang của bạn và cung cấp các tính năng để giữ họ ở lại trang của bạn. Ví dụ, nếu bạn chấp nhận phiếu giảm giá, cung cấp cho họ trực tiếp trên trang web, thay vì buộc người dùng tìm kiếm các trang web khác cho giao dịch.
 
-### Tránh việc hiển thị nhãn cả trang
+### Tránh đặt nhãn "full site"
 
-Khi những ngươì tham gia trải nghiệm thấy một  tùy chọn  cỡ toàn màn hình (ví dụ cỡ desktop) so với tùy chọn "cỡ mobile",  họ sẽ nghĩ tùy chọn cỡ mobile bị thiếu  nội dung và lựa chọn cái cỡ "toàn  màn hình" , điều này sẽ dẫn họ tới trang desktop.
+Khi những người tham gia nghiên cứu thấy tuỳ chọn "full site" (i.e., desktop site) so với "mobile site", họ cho thằng các trang web dành cho mobile thiếu nội dung và chọn "full", điều hướng họ đến trang web cho desktop. 
 
-### Hãy nói rõ tại sao bạn cần vị trí của user
+### Hãy rõ ràng lý do bạn cần vị trí của người dùng 
 
-Users luôn cần hiểu tại sao bạn yêu cầu thông tin về [vị trí][40] của họ. Những người tham gia trải nghiệm mà thử đặt phòng khách sạn tại thành phố khác đã bị bối rối khi trang du lịch phát hiện vị trí của họ và đề xuất khách sạn tại  chính thành phố của họ đang ở. Hãy để trường vị trí rỗng theo mặc định, và  để users lựa chọn hiển thị chúng thông qua một call-to-action rõ ràng như "Find Near Me".
+Người dùng luôn luôn hiểu tại sao bạn hỏi [địa chỉ](https://developers.google.com/web/fundamentals/native-hardware/user-location/)của họ. Những người tham gia nghiên cứu cố gắng đặt một khách sạn ở thành phố khác trở nên bối rối khi trang web du lịch đã phát hiện ra vị trí của họ và đề xuất các khách sạn trong thành phố hiện tại thay vì ở thành phố khác. Để trống trường vị trí như mặc định, và để người dùng chọn nơi phổ biến của họ thông qua hành động rõ ràng như "Tìm gần tôi".
 
-![][41]**Nên**: Luôn yêu cầu quyền truy cập tới vị trí dựa trên hành vi của người dùng.
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/sw-navigation-good.png) 
+**Nên làm**: Luôn luôn yêu cầu truy cập vị trí dựa trên địa chỉ của người dùng.
 
-![][42]**Không nên**: Yêu cầu nó ngay lập tức trên homepage trong khi trang đang load sẽ dẫn đến trải nghiệm người dùng rất  kém. 
+![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/sw-navigation-bad.png) 
+**Không làm**: Yêu cầu nó ngay lập tức trên homepage trong khi trang đang được tải sẽ dẫn đến trải nghiệm người dùng kém.
 
-[1]: https://developers.google.com/web/images/contributors/jennygove.jpg
-[2]: https://www.google.com/think/multiscreen/whitepaper-sitedesign.html?utm_source=web-fundamentals&utm_term=chrome&utm_content=ux-landing&utm_campaign=web-fundamentals
-[3]: https://developers.google.com/web/fundamentals/design-and-ux/responsive/
-[4]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-cta-good.png
-[5]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-cta-bad.png
-[6]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-menus-good.png
-[7]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-hp-good.png
-[8]: https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html
-[9]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-promo-good.png
-[10]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-promo-bad.png
-[11]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-search-good.jpg
-[12]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-search-bad.jpg
-[13]: https://cse.google.com/cse/
-[14]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-relevant-good.png
-[15]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-relevant-bad.png
-[16]: https://developers.google.com/custom-search/docs/structured_search
-[17]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-filters-good.jpg
-[18]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-filters-bad.jpg
-[19]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-guide-good.png
-[20]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/cc-gates-good.png
-[21]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/cc-gates-bad.png
-[22]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/cc-purchase-guest-good.png
-[23]: https://developers.google.com/web/fundamentals/design-and-ux/input/forms/#label-and-name-inputs-properly
-[24]: https://developers.google.com/web/fundamentals/native-hardware/click-to-call/
-[25]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/cc-other-device-good.png
-[26]: https://developers.google.com/web/fundamentals/discovery-and-monetization/social-discovery/
-[27]: https://developers.google.com/web/fundamentals/design-and-ux/input/forms/choose-the-best-input-type
-[28]: https://developers.google.com/web/fundamentals/design-and-ux/input/forms/choose-the-best-input-type#offer-suggestions-during-input-with-datalist
-[29]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/forms-calendar-good.png
-[30]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/forms-multipart-good.png
-[31]: https://developers.google.com/web/fundamentals/design-and-ux/input/forms/#label-and-name-inputs-properly#use-metadata-to-enable-auto-complete
-[32]: https://developers.google.com/web/fundamentals/design-and-ux/input/forms/use-request-auto-complete
-[33]: https://developers.google.com/web/fundamentals/design-and-ux/responsive/#use-css-media-queries-for-responsiveness
-[34]: https://developers.google.com/web/fundamentals/design-and-ux/responsive/#set-the-viewport
-[35]: https://search.google.com/test/mobile-friendly
-[36]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/sw-make-images-expandable-good.png
-[37]: https://developers.google.com/web/fundamentals/design-and-ux/responsive/images#make-product-images-expandable
-[38]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/us-orientation.jpg
-[39]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/sw-single-browser-good.png
-[40]: https://developers.google.com/web/fundamentals/native-hardware/user-location/
-[41]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/sw-navigation-good.png
-[42]: https://developers.google.com/web/fundamentals/design-and-ux/principles/images/sw-navigation-bad.png
 
-  
+
+
+

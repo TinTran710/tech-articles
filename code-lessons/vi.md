@@ -22,7 +22,7 @@ Hàng năm trời, tôi từng nghĩ rằng bạn phải  thật sự thông min
 
 Tôi bắt đầu nghiên cứu về điều này sâu hơn và nhận ra rằng nhiều coder đã tự học và họ không tự nhìn nhận mình là  người có năng khiếu đặc biệt. Cũng như tất cả các kỹ năng khác, những trường hợp ngoại lệ thì họ có năng khiếu thật sự. Nhưng họ chỉ là những trường hợp ngại lệ. Những người tốt và giỏi cứ làm việc đó, làm đi làm lại cho tới khi họ giỏi đến mức có thể làm bất kể thứ gì họ muốn.
 
-Tôi bắt đầu nhận ra một kiểu mẫu.  Với tư cách là một "luật sư quay lại ngành", tôi từng được nghe rằng "bạn hẳn là một người rất thông minh mới có thể làm luật sư". Tôi không đồng tình. Nếu suy nghĩ về điều này, tôi chắc rằng bạn đã từng gặp những người thông minh và không-thông-minh-lắm trong tất cả các tầng lớp xã hội, và thậm chí là cả trong cùng tầng lớp xã hội. 
+Tôi bắt đầu nhận ra một kiểu mẫu.  Với tư cách là một "cựu luật sư", tôi từng được nghe rằng "bạn hẳn là một người rất thông minh mới có thể làm luật sư". Tôi không đồng tình. Nếu suy nghĩ về điều này, tôi chắc rằng bạn đã từng gặp những người thông minh và không-thông-minh-lắm trong tất cả các tầng lớp xã hội, và thậm chí là cả trong cùng tầng lớp xã hội. 
 
 Một số những nhân vật lớn nhất trong lịch sử của chúng ta  quả quyết nói rằng họ chỉ là nhũng con người bình thường đã thực hiện và làm những điều phi thường.  Những người đáng chú ý thường làm những điều  tầm thường và những người ít được chú ý lại thường lại những điều rất đáng chú ý.
 

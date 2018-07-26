@@ -2,7 +2,7 @@
 
 Tôi phải thừa nhận rằng tôi yêu thích việc code. Nhưng thực chất không phải lúc nào cũng vậy. Thực tế,  tôi có hơi cường điệu hóa.  Chỉ khi tôi bị mắc vào vấn đề nào đó lâu  tới mức tôi bắt đầu hiểu và thuần thục nó thì tôi mới yêu thích việc code.
 
-Thành thật mà nói, coding là việc duy nhất nhất tôi từng làm mà phần lớn thời gian trong đó tôi 'thất bại'. Code bị lỗi là điều bình thường, việc sửa chúng, tìm bug và build những thứ hoạt động trơn tru  đòi hỏi  rất  nhiều sự  kiên nhẫn,  nghiên cứu, tập trung và kiên trì. Nhưng những thứ mà bạn học được  từ đó sẽ giúp bạn phát triển.
+Thành thật mà nói, coding là việc duy nhất nhất tôi từng làm mà phần lớn thời gian trong đó tôi 'thất bại'. Code bị lỗi là điều bình thường, việc sửa chúng , tìm lỗi và xây dựng những thứ hoạt động trơn tru đòi hỏi sự kiên nhẫn,  nghiên cứu, tập trung và kiên trì. Nhưng những thứ mà bạn học được  từ đó sẽ giúp bạn phát triển.
 
 Càng về già, chúng ta sẽ càng tin vào những điều làm nhụt chí bản thân.  Thái độ và kỳ vọng của chúng ta ngày càng  giới hạn, đôi lúc còn trở nên vô thức. Ngay cả khi tâm thức của chúng ta chấp nhận khoa học về thần kinh, tiềm thức của ta vẫn chưa tiếp thu kịp kiến thức này. Trên thực tế, chúng ta thậm chí còn không ý thức được các lý do có sức thuyết phục này lại chạy qua hệ điều hành tâm thần của ta, điều đó cũng lý giải tại sao chúng ta sẽ không học được các kiến thức hay kỹ năng mới.
 
@@ -22,9 +22,9 @@ Hàng năm trời, tôi từng nghĩ rằng bạn phải  thật sự thông min
 
 Tôi bắt đầu nghiên cứu về điều này sâu hơn và nhận ra rằng nhiều coder đã tự học và họ không tự nhìn nhận mình là  người có năng khiếu đặc biệt. Cũng như tất cả các kỹ năng khác, những trường hợp ngoại lệ thì họ có năng khiếu thật sự. Nhưng họ chỉ là những trường hợp ngại lệ. Những người tốt và giỏi cứ làm việc đó, làm đi làm lại cho tới khi họ giỏi đến mức có thể làm bất kể thứ gì họ muốn.
 
-Tôi bắt đầu nhận ra một kiểu mẫu.  Với tư cách là một "cựu luật sư", tôi từng được nghe rằng "bạn hẳn là một người rất thông minh mới có thể làm luật sư". Tôi không đồng tình. Nếu suy nghĩ về điều này, tôi chắc rằng bạn đã từng gặp những người thông minh và không-thông-minh-lắm trong tất cả các tầng lớp xã hội, và thậm chí là cả trong cùng tầng lớp xã hội. 
+Tôi bắt đầu nhận ra một kiểu mẫu.  Với tư cách là một "cựu luật sư", tôi từng được nghe rằng "bạn hẳn là một người rất thông minh mới có thể làm luật sư". Tôi không đồng tình. Nếu suy nghĩ về điều này, tôi chắc rằng bạn đã từng gặp những người thông minh và không-thông-minh-lắm trong tất cả các tầng lớp xã hội, và thậm chí là cả trong cùng tầng lớp xã hội. Và mặt khác, một số người bạn cho là phải thông minh để làm những gì họ làm hóa ra lại là những điều rất bình thường.
 
-Một số những nhân vật lớn nhất trong lịch sử của chúng ta  quả quyết nói rằng họ chỉ là nhũng con người bình thường đã thực hiện và làm những điều phi thường.  Những người đáng chú ý thường làm những điều  tầm thường và những người ít được chú ý lại thường lại những điều rất đáng chú ý.
+Một số những nhân vật lớn nhất trong lịch sử của chúng ta  quả quyết nói rằng họ chỉ là nhũng con người bình thường đưa ra những quyết định và lựa chọn làm những điều phi thường.  Những người đáng chú ý thường làm những điều  tầm thường và những người ít được chú ý lại thường làm những điều rất đáng chú ý.
 
 Rõ ràng là niềm tin của tôi đã sai. Có lẽ "thông minh" là một khái niệm có tính tự giới hạn, bởi lẽ nó có ý rằng bạn sinh ra  hoặc là có hoặc không có nó.  Điều này cũng có chịu ảnh hưởng bởi yếu tố văn hóa,  tại đó  mọi người tin rằng thông minh là một đặc tính cố định, bẩm sinh, công bằng và phổ cập. Thực chất, thông minh cũng tương tự như kỹ năng, nó có thể biến đổi. Bạn có thể thay đổi nó theo đúng hướng với nỗ lực kiên trì.
 
@@ -48,8 +48,8 @@ Với nhiều người trong số chúng ta, lần cuối ta thực sự học �
 
 Bạn có thể lấy lại những điều đó. Và  có thể trở nên tốt hơn theo thời gian.
 
-### Lầm tưởng #3: Đối với một số người mọi chuyện s dễ dàng hơn
-Điều này khá là có hại, bởi nó làm chúng ta cảm  thấy thiếu thốn và choáng ngợp. Do đó lầm tưởng này thật sự gây chán nản tới mức mà ta thậm chí còn  không cố gắng để thực hiện những công việc đầu tiên. Và đơn giản là điều này không hề đúng. Chỉ là nó trông thì có vẻ vậy thôi.
+### Lầm tưởng #3: Người khác tiếp nhận mọi chuyện dễ dàng hơn
+Điều này thật sự là sai lầm, bởi vì nó làm cho chúng ta cảm thấy không tự tin và choáng ngợp. Do đó lầm tưởng này thật sự gây chán nản tới mức mà ta thậm chí còn  không cố gắng để thực hiện những công việc đầu tiên. Và đơn giản là điều này không hề đúng. Chỉ là nó trông thì có vẻ vậy thôi.
 
 Hãy để tôi nói cho bạn biết lầm tưởng này  đã  đánh lừa bạn như nào.
 

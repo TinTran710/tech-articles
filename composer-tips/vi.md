@@ -1,6 +1,6 @@
 ## 17 lời khuyên để sử dụng Composer hiệu quả
 
-Dù hầu hết các lập trình viên PHP đều biết cách sử dụng Composer, nhưng không phải tất cả đều sử dụng nó một cách hiệu quả hoặc theo một cách tốt nhất có thể.a Vì vậy tôi quyết định sẽ tóm tắt lại những điều quan trọng  mà phục vụ trong công việc hàng ngày của tôi.
+Dù hầu hết các lập trình viên PHP đều biết cách sử dụng Composer, nhưng không phải tất cả đều sử dụng nó một cách hiệu quả hoặc theo một cách tốt nhất có thể. Vì vậy tôi quyết định sẽ tóm tắt lại những điều quan trọng  mà phục vụ trong công việc hàng ngày của tôi.
 
 Triết lý của hầu hết các lời khuyên là _ "Hãy giữ an toàn" _, có nghĩa là nếu
 có nhiều cách khác nhau để xử lý một vấn đề nào đó, tôi sẽ sử dụng cách tiếp cận ít bị lỗi nhất.
@@ -17,7 +17,7 @@ _"library"_. Mỗi cái sẽ yêu cầu những công việc khác nhau.
 Một library là một package có thể tái sử dụng, ta sẽ thêm chúng như một dependency - ví dụ như `symfony/symfony`, `doctrine/orm` hoặc
 [`elasticsearch/elasticsearch`](https://github.com/elastic/elasticsearch-php).
 
-Một project về cơ bản là một ứng dụng, chúng phụ thuộc vào các library. Chúng thường không có tính tái sử dụng (không có project nào sẽ require chúng  như một dependency). Ví tiêu biểu là một website thương mại điện tử, hệ thống hỗ trợ khách hàng,...
+Một project về cơ bản là một ứng dụng, chúng phụ thuộc vào các library. Chúng thường không có tính tái sử dụng (không có project nào sẽ require chúng  như một dependency). Ví dụ tiêu biểu là một website thương mại điện tử, hệ thống hỗ trợ khách hàng,...
 
 Tôi sẽ phân biệt sự khác nhau giữa library và  một project trong các lời khuyên  dưới đây.
 
@@ -41,7 +41,7 @@ parsing, bạn nên require nó như sau:
     ```
     "symfony/yaml": "^3.0 || ^4.0"
     ```
-Điều này có nghĩa rằng thư viện của bạn có thể sử dụng `symfony / yaml` của bất kỳ phiên bản 3 chấm hoặc 4 chấm nào. Điều này quan trọng, bởi vì ràng buộc này được chuyền đến ứng dụng mà sử dụng thư viện của bạn.
+Điều này có nghĩa rằng thư viện của bạn có thể sử dụng `symfony / yaml` của bất kỳ phiên bản 3. hoặc 4. nào. Điều này quan trọng, bởi vì ràng buộc này được chuyển đến ứng dụng mà sử dụng thư viện của bạn.
 
 Trong trường hợp có hai thư viện có các requirements xung đột nhau, ví dụ: một cái yêu cầu `~ 3.1.0` và cái khác yêu cầu ` ~ 3.2.0`, quá trình cài đặt sẽ thất bại.
 
@@ -144,7 +144,7 @@ dependency tại phần này cũng là dependency của ứng dụng mà sử d�
 
 Các package cần thiết để phát triển ứng dụng (hoặc thư viện) nên được định nghĩa trong `require-dev` (ví dụ: PHPUnit, PHP_CodeSniffer, PHPStan).
 
-## Lời khuyên #11: Update dependency một cách an toàn
+## Lời khuyên #11: Cập nhật dependency một cách an toàn
 
 Tôi cho rằng chúng ta có thể nhất trí về việc các dependency nên được update thường xuyên. Những gì tôi muốn thảo luận ở đây là việc update các dependency nên được thực hiện một cách rõ ràng và thận trọng. Không nên thực hiện nó theo kiểu "tiện thể thì làm" kèm với các công việc khác. Nếu bạn sửa đổi một cái gì đó và đồng thời cập nhật một số thư viện, bạn không thể dễ dàng
 biết được liệu ứng dụng đã bị hỏng do bạn sửa đổi hay do việc cập nhật đã gây nên.
@@ -173,9 +173,9 @@ namespace cụ thể:
 
     composer update symfony/* --with-dependencies
     
-Tôi biết rằng những điều này nghe có vẻ thật tẻ nhạt, nhưng chỉ thỉnh thoảng bạn mới nên cập nhật các dependency, như vậy sẽ an toàn hơn.
+Tôi biết rằng những điều này nghe có vẻ thật thừa thãi, nhưng chỉ thỉnh thoảng bạn mới nên cập nhật các dependency, như vậy sẽ an toàn hơn.
 
-Một cách tắt là cập nhật tất cả các `require-dev` dependency cùng một lúc (nếu chúng không yêu cầu thay đổi trong code, nếu không thì tôi đề xuất sử dụng các branch khác nhau để review code dễ dàng hơn).
+Một cách ngắn gọn là cập nhật tất cả các `require-dev` dependency cùng một lúc (nếu chúng không yêu cầu thay đổi trong code, nếu không thì tôi đề xuất sử dụng các branch khác nhau để review code dễ dàng hơn).
 
 ## Lời khuyên #12: Bạn có thể định nghĩa các kiểu dependency khác trong `composer.json`
 
@@ -332,4 +332,4 @@ Nếu bạn không muốn include các file test trong production class map (b�
     
 ## Lời khuyên #22: Hãy thử sử dụng Composer scripts
 
-Composer scripts là một tool nhỏ gon để tạo các build script. Tôi đã viết [một bài riêng về vấn đề này](/have-you-tried-composer-scripts/).
+Composer scripts là một tool nhỏ gọn để tạo các build script. Tôi đã viết [một bài riêng về vấn đề này](/have-you-tried-composer-scripts/).

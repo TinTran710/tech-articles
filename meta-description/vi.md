@@ -16,7 +16,7 @@ Marine Corps Community Services có thể là một tổ chức tuyệt vời, n
 
 ![](//d1avok0lzls2w.cloudfront.net/uploads/blog/meta-desc-2018-2-4999.png)
 
-Bỏ qua sự nhầm lẫn về đa thương hiệu nghiêm trọng của họ, tôi nghĩ tất cả chúng ta có thể đồng ý rằng "BER Meta TAG1" không phải là tối ưu. Nếu những ví dụ này đã dạy cho bạn bất cứ điều gì, thì nó đã chỉ đơn giản cho bạn biết những điều bạn không nên làm. Điều gì sẽ xảy ra ở trường hợp ngược lại? Dưới đây là một đoạn trích có 386 ký tự, từ việc tìm kiếm non-compete agreement":
+Bỏ qua sự nhầm lẫn về đa thương hiệu nghiêm trọng của họ, tôi nghĩ tất cả chúng ta có thể đồng ý rằng "BER Meta TAG1" không phải là tối ưu. Nếu những ví dụ này đã dạy cho bạn bất cứ điều gì, thì nó đã chỉ đơn giản cho bạn biết những điều bạn không nên làm. Điều gì sẽ xảy ra ở trường hợp ngược lại? Dưới đây là một đoạn trích có 386 ký tự, từ việc tìm kiếm "non-compete agreement":
 
 ![](//d1avok0lzls2w.cloudfront.net/uploads/blog/meta-desc-2018-3-12620.png)
 
@@ -73,11 +73,11 @@ Hãy nghĩ về nó giống như một quảng cáo, với hai dòng riêng bi�
 
 ### Dòng 1 (145 chars.)
 
-"In December, we reported that Google increased search snippets to over 300 characters. Unfortunately, it looks like the rules have changed again."
+"In December, we reported that Google increased search snippets to over 300 characters. Unfortunately, it looks like the rules have changed again." ("Vào tháng 12, chúng tôi đã thông báo rằng Google đã đoạn trích tìm kiếm lên hơn 300 kí tự. Thật không may, có vẻ như các quy tắc đã thay đổi lần nữa")
 
 ### Line 2 (122 chars.)
 
-"According to our new research (May 2018), the limit is back to 155-160 characters. How should SEOs adapt to these changes?"
+"According to our new research (May 2018), the limit is back to 155-160 characters. How should SEOs adapt to these changes?" ("Nghiên cứu mới nhất của chúng tôi (tháng 5 năm 2018), giới hạn đã trở lại 155-160 kí tự. Làm thế nào SEO có thể thích ứng với những thay đổi này?")
 
 Dòng 1 có phiên bản ngắn của câu chuyện và hy vọng người tìm kiếm biết họ đang đi đúng hướng. Dòng 2 đi sâu vào một vài chi tiết và cho ta biết chỉ vừa đủ dữ liệu (hy vọng) là hấp dẫn. Nếu Google sử dụng mô tả dài hơn, nó sẽ hoạt động tốt, nhưng nếu không, kết quả của chúng ta không nên tệ hơn trên.
 

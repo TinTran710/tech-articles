@@ -45,7 +45,7 @@ Truy vấn hai mất log2(MAX).
 **Vấn đề 2**: Cho một mảng các số nguyên, tìm mảng con có giá trị XOR lớn nhất. 
 **Giải pháp:**  
 Giả sử F(L,R) là XOR của mảng con từ L tới R.
-Ở đây ta sử dụng tính chất F(L,R) = F(1,R) XOR F(1,L-1). Tại sao lại như vậy?
+Ở đây ta sử dụng tính chất F(L,R) = F(1,R) XOR F(1,L-1). Làm như thế nào?
 Giả sử mảng con với XOR lớn nhất kết thúc tại vị trí thứ i. Giờ ta cần tối đa giá trị F(L, i). F(L, i) XOR F(1,L-1) với L<=i. Giả sử ta đã chèn F(1,L-1) vào trie với mỗi L<=i, lúc đó bài toán sẽ quay về vấn đề 1.
 
     
@@ -78,7 +78,7 @@ Giải pháp lần này một lần nữa sử dụng các khái niệm mà ta �
     
 
 query(q,k) trả về số lượng các số nguyên đã tồn tại trong cấu trúc mà khi ta thực hiện phép XOR chúng với q sẽ trả về số nguyên nhỏ hơn k.
-Ta so sánh bit tương ứng của q và k, bắt đầu từ bit lớn nhất. Giả sử p và q là hai bit mà ta đang xem xét.
+Ta so sánh bit tương ứng của q và k, bắt đầu từ bit quan trọng nhất (most significant bits) . Giả sử p và q là hai bit mà ta đang xem xét.
 
 Nếu q bằng 1, p bằng 0, ta sẽ thực hiện như sau:
 
@@ -90,7 +90,7 @@ Do vậy, ta cần thay đổi cấu trúc hiện tại, ta cũng sẽ giữ s�
 
 Vấn đề này được nêu tại CodeCraft'14. Bạn có thể thực hành tại: [SPOJ.com - Problem SUBXOR][6]
 
-Giờ, hãy xem xét về cách triển khia code.
+Giờ, hãy xem xét về cách triển khai code.
 Để triển khai code cho trie trong C/CPP ta có thể giữ các node và các con trỏ trái và phải. Ta có thể viết hàm đệ quy.   
 
     

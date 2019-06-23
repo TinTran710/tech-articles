@@ -1,9 +1,9 @@
 
 [Source](https://developers.google.com/web/fundamentals/design-and-ux/principles/ "Permalink to What Makes a Good Mobile Site?  |  Web Fundamentals  |  Google Developers")
 
-# Điều gì làm nên một trang Mobile tốt?  |  Cơ bản về Web  |  Google Developers
+# Điều gì làm nên một trang Mobile tốt?  |  Các nguyên tắc cơ bản của web về Web  |  Google Developers
 
-Jenny Gove là một UX Research Lead tại Google, tại đó cô đã thực hiện các nghiên cứu về trải nghiệm trên smartphone. Cô có bằng  Tiến sĩ tại đại học Southampton, Anh.
+Jenny Gove là Trưởng nhóm nguyên cưu về UX tại Google, tại đó cô đã thực hiện các nghiên cứu về trải nghiệm trên smartphone. Cô có bằng Tiến sĩ tại đại học Southampton, Anh.
 
 Google và AnswerLab đã thực hiện một [nghiên cứu][2] để trả lời cho câu hỏi này.
 
@@ -13,13 +13,13 @@ Nghiên cứu được thực hiện trong 119 giờ đồng hồ, bao gồm  c�
 
 Nghiên cứu đã tìm ra 25 quy tắc thiết kế  cho  các trang mobile, và được phân thành 5 thể loại.
 
-## Home page và site navigation
+## Trang chủ và trang điều hướng
 
 **Mục tiêu:** Làm trang homepage của mobile có thể kết nối users với nội dung mà họ đang tìm kiếm.
 
 ### Giữ các call to action (lời kêu gọi hành động) ở đằng trước và chính giữa
 
-Hãy làm sao để các tác vụ thứ hai có thể thực hiện thông qua [menus][3] hoặc tại "phía dưới màn hình" (phần của webpage mà ta không thể thấy  nếu không vuốt xuống).
+Hãy làm sao để các tác vụ thứ cấp có thể thực hiện thông qua [menus][3] hoặc tại "phía dưới màn hình đầu tiên" (phần của webpage mà ta không thể thấy  nếu không vuốt xuống).
 
 ![][4]**Nên**: Làm sao để tất cả các tác vụ cơ bản của người dùng  trở nên  đơn giản và khả dụng nhất.
 
@@ -37,7 +37,7 @@ Mobile users không có đủ kiên nhẫn để scroll qua một danh sách dà
 
 Users sẽ mong muốn có thể  quay lại homepage khi họ chạm vào logo tại phía trên bên trái của một trang mobile, và họ sẽ bực bội nếu điều này không khả dụng .
 
-### Đừng để các quảng cáo chiếm  hết  show diễn
+### Đừng để các quảng cáo chiếm  hết  quá nhiều phần hiển thị
 
 Các quảng cáo xen kẽ lớn mà yêu cầu cài đặt app (ví dụ: các khuyến mãi chiếm cả màn hình sẽ ẩn các nội dung và yêu cầu users cài đặt app) sẽ làm phiền users và gây cản trở trong việc thực hiện các tác vụ. Ngoài việc làm phiền users,  [các trang sử dụng quảng cáo xen kẽ có thể  bị tác động tiêu cực đến thính thứ hạng tìm kiếm của họ][8]
 
@@ -55,7 +55,7 @@ Users tìm kiếm thông tin thường chuyển sang việc sử dụng  công c
 
 ![][11]**Nên**: Hiện thị tìm kiếm 
 
-![][12]**Không nên**: Ẩn tìm kiếm vào trong các overflow menus.
+![][12]**Không nên**: Ẩn tìm kiếm vào trong các menu.
 
 ### Đảm bảo rằng kết quả của  trang tìm kiếm  cho ra  các  thông tin liên quan
 
@@ -65,13 +65,13 @@ Users sẽ không lướt qua nhiều trang kết quả để  thứ mà họ đ
 
 ![][15]**Không nên**: Không nên trả về các kết quả mà có chứa từ kid trong đó.
 
-### Áp dụng filters để giới hạn kết quả
+### Áp dụng bộ lọc để giới hạn kết quả
 
-Những người tham gia cuộc thử nghiệm  sử dụng và phụ thuộc  vào  [filters][16] để tìm kiếm những gì họ cần, và bỏ qua  các trang mà không có filter hiệu quả. Hãy đặt filter phía trên kết quả tìm kiếm, và giúp users  bằng cách hiển thị  số lượng kết quả trả về nếu một filter được áp dụng.
+Những người tham gia cuộc thử nghiệm  sử dụng và phụ thuộc  vào  [bộ lọc][16] để tìm kiếm những gì họ cần, và bỏ qua  các trang mà không có bộ lọc hiệu quả. Hãy đặt bộ lọc phía trên kết quả tìm kiếm, và giúp users  bằng cách hiển thị  số lượng kết quả trả về nếu một bộ lọc được áp dụng.
 
-![][17]**Nên**: Làm việc filter trở nên dễ dàng. 
+![][17]**Nên**: Làm việc lọc kết quả trở nên dễ dàng. 
 
-![][18]**Không nên**: Ẩn chức năng của filter.
+![][18]**Không nên**: Ẩn chức năng của bộ lọc.
 
 ### Điều hướng, chỉ dẫn users tới các trang tìm kiếm có kết quả tốt hơn
 

@@ -1,10 +1,10 @@
 # Những điều mà tôi đã học được khi code
 
-Tôi phải thừa nhận rằng tôi yêu thích việc code. Nhưng thực chất không phải lúc nào cũng vậy. Thực tế,  tôi có hơi cường điệu hóa.  Chỉ khi tôi bị mắc vào vấn đề nào đó lâu  tới mức tôi bắt đầu hiểu và thuần thục nó thì tôi mới yêu thích việc code.
+Tôi phải thừa nhận rằng tôi yêu thích việc code. Nhưng thực chất không phải lúc nào cũng vậy. Thực tế,  tôi có hơi cường điệu hóa.  Chỉ khi tôi bị mắc vào vấn đề nào đó lâu tới mức tôi bắt đầu hiểu và thuần thục nó thì tôi mới yêu thích việc code.
 
 Thành thật mà nói, coding là việc duy nhất nhất tôi từng làm mà phần lớn thời gian trong đó tôi 'thất bại'. Code bị lỗi là điều bình thường, việc sửa chúng, tìm bug và build những thứ hoạt động trơn tru  đòi hỏi  rất  nhiều sự  kiên nhẫn,  nghiên cứu, tập trung và kiên trì. Nhưng những thứ mà bạn học được  từ đó sẽ giúp bạn phát triển.
 
-Càng về già, chúng ta sẽ càng tin vào những điều làm nhụt chí bản thân.  Thái độ và kỳ vọng của chúng ta ngày càng  giới hạn, đôi lúc còn trở nên vô thức. Ngay cả khi tâm thức của chúng ta chấp nhận khoa học về thần kinh, tiềm thức của ta vẫn chưa tiếp thu kịp kiến thức này. Trên thực tế, chúng ta thậm chí còn không ý thức được các lý do có sức thuyết phục này lại chạy qua hệ điều hành tâm thần của ta, điều đó cũng lý giải tại sao chúng ta sẽ không học được các kiến thức hay kỹ năng mới.
+Càng về già, chúng ta sẽ càng tin vào những điều làm nhụt chí bản thân.  Thái độ và kỳ vọng của chúng ta ngày càng  giới hạn, đôi lúc còn trở nên vô thức. Ngay cả khi tâm thức của chúng ta chấp nhận khoa học về thần kinh, tiềm thức của ta vẫn chưa tiếp thu kịp kiến thức này. Trên thực tế, chúng ta thậm chí còn không ý thức được các lý do có sức thuyết phục này lại chạy qua tâm trí của ta, điều đó cũng lý giải tại sao chúng ta sẽ không học được các kiến thức hay kỹ năng mới.
 
 Dưới đây là những điều quen thuộc mà có lẽ  bạn nhận ra :
 
@@ -34,21 +34,21 @@ Bạn hãy thử tưởng tượng nếu như  Henry Ford, Edison, Jobs, the Wri
 
 Không, thật sự không đáng để chúng ta tưởng tượng về điều đó đâu.
 
-Thay vào đó, hãy tập trung vào cách để chúng ta không còn tiếp thu và có những suy nghĩ và kỳ vọng sai lầm như vậy nữa. Với cách đó, chúng ta có thể tự sửa  sai  khi  ta đang tự đánh giá sai bản thân. Hơn hết, chúng ta có thể đảm bảo rằng ,  con cái của chúng ta không bị ảnh hưởng bởi những suy nghĩ sai lệch.
+Thay vào đó, hãy tập trung vào cách để chúng ta không còn tiếp thu và có những suy nghĩ và kỳ vọng sai lầm như vậy nữa. Với cách đó, chúng ta có thể tự sửa sai khi ta đang tự đánh giá sai bản thân. Hơn hết, chúng ta có thể đảm bảo rằng ,  con cái của chúng ta không bị ảnh hưởng bởi những suy nghĩ sai lệch.
 
 ### Lầm tưởng #1: Thông minh là do được kế thừa
-Không phải. Đó là do tích lũy. Và vì nó luôn có tính tương đối, bạn sẽ luôn dốt hơn một người nào đó, vì vậy hãy tiếp tục trưởng thành.
+Không phải. Đó là do tích lũy. Và vì nó luôn có tính tương đối, bạn sẽ luôn dốt hơn một người nào đó, vì vậy hãy tiếp tục phát triển.
 
 ### Lầm tưởng #2: Não tôi sẽ không còn học nhanh khi tôi già đi
 Thực chất, điều này cũng không chính xác. Khi bạn già đi bạn sẽ biết cách để học sao cho tốt hơn. Khác với cơ thể, trí óc của  bạn ở tuổi  75 thậm chí có thể tốt hơn ở tuổi 25. Không tin hãy hỏi Benjamin Franklin.
 
-Điều thật sự xảy ra là sự tập trung, mối quan tâm, niềm tin và kỷ luật mới là thứ yếu đi và phai nhạt khi chúng ta già đi, điều này là do thiếu luyện tập. Không phải do yếu tố tuổi tác, đó là do chúng ta không luyện tập và thực hành.  Trí tuệ của ta đã bị nhão đi.
+Điều thật sự xảy ra là sự tập trung, mối quan tâm, niềm tin và kỷ luật mới là thứ yếu đi và phai nhạt khi chúng ta già đi, điều này là do thiếu luyện tập. Không phải do yếu tố tuổi tác, đó là do chúng ta không luyện tập và thực hành. Trí tuệ của ta sẽ bị kém đi.
 
-Với nhiều người trong số chúng ta, lần cuối ta thực sự học điều gì đó có lẽ là hồi ở đại học, và thời điểm đó có lẽ đã  cách xa vài năm trước rồi. Chúng ta cứ học những thứ mà ta thích, đó là sở thích như cách sử dụng Facebook,  học lặn , cách  chỉnh sửa và upload các hình lên Instagram - bởi ta thấy thích thú với những việc làm như vậy.
+Với nhiều người trong số chúng ta, lần cuối ta thực sự học điều gì đó có lẽ là hồi ở đại học, và thời điểm đó có lẽ đã cách xa vài năm trước rồi. Chúng ta cứ học những thứ mà ta thích, đó là sở thích như cách sử dụng Facebook,  học lặn , cách chỉnh sửa và upload các hình lên Instagram - bởi ta thấy thích thú với những việc làm như vậy.
 
 Bạn có thể lấy lại những điều đó. Và  có thể trở nên tốt hơn theo thời gian.
 
-### Lầm tưởng #3: Đối với một số người mọi chuyện s dễ dàng hơn
+### Lầm tưởng #3: Đối với một số người mọi chuyện sẽ dễ dàng hơn
 Điều này khá là có hại, bởi nó làm chúng ta cảm  thấy thiếu thốn và choáng ngợp. Do đó lầm tưởng này thật sự gây chán nản tới mức mà ta thậm chí còn  không cố gắng để thực hiện những công việc đầu tiên. Và đơn giản là điều này không hề đúng. Chỉ là nó trông thì có vẻ vậy thôi.
 
 Hãy để tôi nói cho bạn biết lầm tưởng này  đã  đánh lừa bạn như nào.
@@ -90,7 +90,7 @@ Không. Nó sẽ không như thế đâu. Mọi thứ sẽ khó hơn bạn tư�
 
 Hãy ngẫm lại câu nói trên.
 
-Và nó sẽ mất nhiều thời gian hơn bạn dự định dành ra. Đó chính là lúc mà sự chán nản của bạn xuất hiện, vì thời gian trôi qua sẽ khiến bạn nghi ngờ và sợ hãi hơn. Bạn sẽ tìm kiếm những chiến thắng nhanh chóng và các thành tựu dễ dàng. Chúng rồi cũng sẽ đến. Nhưng đến rất sau thời điểm bạn mà tưởng tượng và đó như là một phần thưởng cho sự bền bỉ để vượt qua nỗi khổ. Khi ấy những thành tựu của ta không còn phù hợp để gọi là nhanh và dễ dàng nữa.
+Và nó sẽ mất nhiều thời gian hơn bạn dự định dành ra. Đó chính là lúc mà sự chán nản của bạn xuất hiện, vì thời gian trôi qua sẽ khiến bạn nghi ngờ và sợ hãi hơn. Bạn sẽ tìm kiếm những chiến thắng nhanh chóng và các thành tựu dễ dàng. Chúng rồi cũng sẽ đến. Nhưng đến sau thời điểm bạn mà tưởng tượng và đó như là một phần thưởng cho sự bền bỉ để vượt qua nỗi khổ. Khi ấy những thành tựu của ta không còn phù hợp để gọi là nhanh và dễ dàng nữa.
 
 ### Kỳ vọng sai lầm #3: Cuộc đời của bạn sẽ thây đổi
 Có thể. Có thể không. Nhưng chỉ có một thứ đảm bảo sẽ thay đổi. Đó là bạn.
